@@ -1,6 +1,29 @@
 import numpy as np
 
 
+def valid(function):
+    def validation(*args, **kwargs):
+        name=function.__name__
+        theta_,  = args
+        if not isinstance(theta_, np.ndarray):
+            print("Error in iterative_l2(): Not a numpy.array.")
+            return None
+        try:
+            m, n = theta_.shape
+            if n != 1:
+                print(f"Error in {name}(): bad shape of theta -> {theta_.shape}")
+                return None
+            if theta_.size == 0:
+                print("Error in {name}(): empty theta.")
+                return None
+            return function(*args, **kwargs)
+        except Exception as e:
+            print(f"Error in {name}(): {e}")
+            return None
+
+    return validation
+    
+@valid
 def iterative_l2(theta):
     """Computes the L2 regularization of a non-empty numpy.ndarray, with a for-loop.
     Args:
@@ -11,27 +34,13 @@ def iterative_l2(theta):
     Raises:
         This function should not raise any Exception.
     """
-    if not isinstance(theta, np.ndarray):
-        print("Error in iterative_l2(): Not a numpy.array.")
-        return None
-    try:
-        m, n = theta.shape
-        if n != 1:
-            print(f"Error in iterative_l2(): bad shape of theta -> {theta.shape}")
-            return None
-        if theta.size == 0:
-            print("Error in iterative_l2(): empty theta.")
-            return None
-        theta_ = np.copy(theta).astype(float)
-        sum = 0
-        for i in range(1, theta_.size):
-            sum += theta_[i][0] ** 2
-        return sum
-    except Exception as e:
-        print(f"Error in iterative_l2(): {e}")
-        return None
+    theta_ = np.copy(theta).astype(float)
+    sum = 0
+    for i in range(1, theta_.size):
+        sum += theta_[i][0] ** 2
+    return sum
 
-
+@valid
 def l2(theta):
     """Computes the L2 regularization of a non-empty numpy.ndarray, without any for-loop.
     Args:
@@ -42,9 +51,6 @@ def l2(theta):
     Raises:
         This function should not raise any Exception.
     """
-    try:
-        theta = np.reshape(theta, (len(theta), ))
-        return float(theta[1:].T.dot(theta[1:]))
-    except Exception as inst:
-        print(inst)
-        return None
+    theta = np.reshape(theta, (len(theta), ))
+    return float(theta[1:].T.dot(theta[1:]))
+
