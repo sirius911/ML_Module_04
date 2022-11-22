@@ -22,7 +22,19 @@ def valid(function):
 
     return validation
 
+def regularize(function):
+    def regul(*args, **kwargs):
+        loss = function(*args, **kwargs)
+        y, _, theta, lambda_,  = args
+        m = y.shape[0]
+        t_ = np.squeeze(theta[1:])
+        reg = lambda_ * t_ @ t_ / (2 * m)
+        return -loss / m + reg
+    
+    return regul
+
 @valid
+@regularize
 def reg_log_loss_(y, y_hat, theta, lambda_):
     """Computes the regularized loss of a logistic regression model from two non-empty numpy.ndarray, without any for l
     Args:
@@ -37,11 +49,8 @@ def reg_log_loss_(y, y_hat, theta, lambda_):
     Raises:
         This function should not raise any Exception.
     """
-    m = y.shape[0]
     eps = 1e-15
-    t_ = np.squeeze(theta[1:])
     y_ = np.squeeze(y)
     y_hat_ = np.squeeze(y_hat)
     loss = y_ @ np.log(y_hat_ + eps) + (1 - y_) @ np.log(1 - y_hat_ + eps)
-    reg = lambda_ * t_ @ t_ / (2 * m)
-    return -loss / m + reg
+    return loss
