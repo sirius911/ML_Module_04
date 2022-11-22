@@ -3,12 +3,12 @@ import numpy as np
 
 def valid(function):
     def validation(*args, **kwargs):
-        name=function.__name__
-        theta_,  = args
-        if not isinstance(theta_, np.ndarray):
-            print("Error in iterative_l2(): Not a numpy.array.")
-            return None
         try:
+            name=function.__name__
+            theta_,  = args
+            if not isinstance(theta_, np.ndarray):
+                print("Error in iterative_l2(): Not a numpy.array.")
+                return None
             m, n = theta_.shape
             if n != 1:
                 print(f"Error in {name}(): bad shape of theta -> {theta_.shape}")
@@ -20,7 +20,6 @@ def valid(function):
         except Exception as e:
             print(f"Error in {name}(): {e}")
             return None
-
     return validation
     
 @valid
