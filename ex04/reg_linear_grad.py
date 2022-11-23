@@ -104,3 +104,10 @@ def vec_reg_linear_grad(y, x, theta, lambda_):
         Raises:
             This function should not raise any Exception.
     """
+    m = x.shape[0]
+    y_hat = predict_(x, theta)
+    x = np.concatenate([np.ones(len(x)).reshape(-1, 1), x], axis=1)
+    diff = y_hat - y
+    t_ = np.copy(theta)
+    t_[0] = 0
+    return ((1 / m) * (x.T.dot(diff) + (lambda_ * t_)))

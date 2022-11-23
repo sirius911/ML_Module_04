@@ -7,37 +7,43 @@ x = np.array([
 y = np.array([[2], [14], [-13], [5], [12], [4], [-19]])
 theta = np.array([[7.01], [3], [10.5], [-6]])
 # Example 1.1:
-reg_linear_grad(y, x, theta, 1.0) # Output:
+print(reg_linear_grad(y, x, theta, 1.0))
+ # Output:
 # array([[ -60.99 ],
 #                 [-195.64714286],
 #                 [ 863.46571429],
 #                 [-644.52142857]])
 # Example 1.2:
-vec_reg_linear_grad(y, x, theta, 1.0) # Output:
+print(vec_reg_linear_grad(y, x, theta, 1.0))
+# Output:
 # array([[ -60.99 ],
 #                 [-195.64714286],
 #                 [ 863.46571429],
 #                 [-644.52142857]])
 # Example 2.1:
-reg_linear_grad(y, x, theta, 0.5) # Output:
+print(reg_linear_grad(y, x, theta, 0.5))
+# Output:
 # array([[ -60.99 ],
 #                 [-195.86142857],
 #                 [ 862.71571429],
 #                 [-644.09285714]])
 # Example 2.2:
-vec_reg_linear_grad(y, x, theta, 0.5) # Output:
+print(vec_reg_linear_grad(y, x, theta, 0.5))
+ # Output:
 # array([[ -60.99 ],
 #                 [-195.86142857],
 #                 [ 862.71571429],
 #                 [-644.09285714]])
 # Example 3.1:
-reg_linear_grad(y, x, theta, 0.0) # Output:
+print(reg_linear_grad(y, x, theta, 0.0))
+# Output:
 # array([[ -60.99 ],
 #                 [-196.07571429],
 #                 [ 861.96571429],
 #                 [-643.66428571]])
 # Example 3.2:
-vec_reg_linear_grad(y, x, theta, 0.0) # Output:
+print(vec_reg_linear_grad(y, x, theta, 0.0))
+# Output:
 # array([[ -60.99 ],
 #                 [-196.07571429],
 #                 [ 861.96571429],
