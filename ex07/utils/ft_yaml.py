@@ -14,6 +14,8 @@ def init_model_yaml(file = 'models.yaml'):
     ['mse']
     ['evol_mse']
     ['polynomes']
+    ['total_iter']
+    ['lambda']
     """
     try:
         pow = range(1, 4 + 1)   # puissances max du polynome = 4
@@ -30,9 +32,9 @@ def init_model_yaml(file = 'models.yaml'):
                 models['polynomes'] =polynome
                 models['thetas'] = [1 for _ in range(sum(polynome) + 1)]
                 models['mse'] = None
-                models['evol_mse'] = []
                 models['lambda'] = float(lambda_)
                 models['total_iter'] = 0
+                models['evol_mse'] = []
                 list_models.append(models)
         with open(file, 'w') as outfile:
                 yaml.dump_all(list_models, outfile, sort_keys=False, default_flow_style=None)

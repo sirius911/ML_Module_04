@@ -101,7 +101,6 @@ def main():
                     x_test_ = add_polynomial_features(x_test, hypo)
                     my_ridge = MyRidge(thetas, alpha, max_iter, lambda_, progress_bar=True)
                     historic = my_ridge.fit_(x_train_, y_train)
-
                     old_list = model['evol_mse']
                     old_list.extend(historic)
                     model['evol_mse'] = [float(m) for m in old_list]
@@ -145,12 +144,13 @@ def main():
     fig = plt.figure()
     ax = fig.add_subplot()
     for model in update_list:
-        if model['evol_mse'] is not None:
-            ax.plot(np.arange(len(model['evol_mse'])), np.sqrt(model['evol_mse']))
+        if model['evol_mse'] is not None and model['name'] == best_model['name']:
+            ax.plot(np.arange(len(model['evol_mse'])), np.sqrt(model['evol_mse']), label=model['lambda'])
     ax.set_xlabel("number iteration")
-    ax.set_ylabel("mse")
+    ax.set_ylabel("$\sqrt{mse}$")
     ax.grid()
-    plt.axis([0, 200, 0, 2])
+    plt.legend(title='$\lambda$')
+    plt.title(f"Model : {best_model['name']}")
     plt.show()
 
 

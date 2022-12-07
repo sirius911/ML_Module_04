@@ -47,6 +47,21 @@ class MyRidge(MyLinearRegression):
         if progress_bar is not None:
             self.progress_bar = progress_bar
 
+    def l2(self):
+        """Computes the L2 regularization of a non-empty numpy.array, without any
+        for-loop.
+        Args:
+            theta: has to be a numpy.array, a vector of shape n’ * 1.
+        Return:
+            The L2 regularization as a float.
+            None if theta in an empty numpy.array.
+            None if theta is not of the expected type.
+        Raises:
+            This function should not raise any Exception.
+        """
+        theta = np.reshape(self.thetas, (len(self.thetas), ))
+        return float(theta[1:].T.dot(theta[1:]))   
+
     @control
     def loss_(self, y, y_hat):
         """
@@ -57,6 +72,12 @@ class MyRidge(MyLinearRegression):
         loss = (y - y_hat).T @ (y - y_hat)
         reg = self.lambda_ * t_ @ t_
         return float(0.5 * (loss + reg) / m)
+
+    @control
+    def loss_elem_(self, y, y_hat):
+        loss = (y - y_hat) ** 2
+        reg = self.lambda_ * self.l2()
+        return (loss+reg)
 
     @control
     def gradient_(self, x, y):

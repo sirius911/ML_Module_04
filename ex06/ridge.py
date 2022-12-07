@@ -75,7 +75,6 @@ class MyRidge(MyLinearRegression):
 
     @control
     def loss_elem_(self, y, y_hat):
-        print("ici")
         loss = (y - y_hat) ** 2
         reg = self.lambda_ * self.l2()
         return (loss+reg)
