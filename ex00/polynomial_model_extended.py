@@ -17,20 +17,17 @@ def add_polynomial_features(x, power):
         return None
     try:
         typ = x.dtype
-        print(typ)
         m, n = x.shape
         
         if power == 0:
             return np.ones((x.shape)).astype(typ)
-        if power == 1:
-            # ???
-            return np.array(x, copy=True).astype(typ)
+
         ret = np.zeros((m, n * power))
 
         #first column
         for i in range(n):
             ret[:,i] = x[:,i]
-        
+        # next columns
         idx = 2
         for p in range(2, power + 1):
             for i in range(n):
