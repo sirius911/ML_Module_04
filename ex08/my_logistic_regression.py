@@ -35,6 +35,8 @@ class MyLogisticRegression():
             self.theta = np.array(theta,dtype='float64').reshape(-1,1)
         if not isinstance(lambda_, float) and not isinstance(lambda_, int):
             raise MyLogisticException("MyLogisticException: lambda_ must be a float")
+        if penality not in self.supported_penalities:
+            penality = None
         self.penality = penality
         self.lambda_ = lambda_ if penality in self.supported_penalities else 0.0
 
@@ -87,17 +89,19 @@ class MyLogisticRegression():
             print("Error in loss_() : not numpy array.")
             return None
         try:
+            # m = y.shape[0]
+            # if y.shape != y_hat.shape or y.shape[1] != 1:
+            #     print("Error in loss_() : incompatible shape.")
+            #     return None
+
+            # ones = np.ones(y.shape)
+            # inter = (y.T @ np.log(y_hat +eps)) + ((ones - y).T @ np.log(ones - y_hat + eps))
+            # return float(-(1 / m) * (inter))
             m = y.shape[0]
-            if y.shape != y_hat.shape or y.shape[1] != 1:
-                print("Error in loss_() : incompatible shape.")
-                return None
-
-            ones = np.ones(y.shape)
-            inter = (y.T @ np.log(y_hat +eps)) + ((ones - y).T @ np.log(ones - y_hat + eps))
-            t_ = np.squeeze(self.thetas[1:])
+            t_ = np.squeeze(self.theta[1:])
+            loss = (y - y_hat).T @ (y - y_hat)
             reg = self.lambda_ * t_ @ t_
-            return float(-(1 / m) * (inter + reg))
-
+            return float(0.5 * (loss + reg) / m)
         except Exception as e:
             print(e)
             return None

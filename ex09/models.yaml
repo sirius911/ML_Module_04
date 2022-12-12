@@ -1,0 +1,164 @@
+name: w1d1t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 1, 1]
+thetas: [1, 1, 1, 1]
+mse: null
+f1_score: null
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w1d1t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 1, 1]
+thetas: [1, 1, 1, 1]
+mse: null
+f1_score: null
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w1d1t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 1, 1]
+thetas: [1, 1, 1, 1]
+mse: null
+f1_score: null
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w1d1t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 1, 1]
+thetas: [1, 1, 1, 1]
+mse: null
+f1_score: null
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w1d1t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 1, 1]
+thetas: [1, 1, 1, 1]
+mse: null
+f1_score: null
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 2]
+thetas: [1, 1, 1, 1, 1, 1, 1]
+mse: null
+f1_score: null
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 2]
+thetas: [1, 1, 1, 1, 1, 1, 1]
+mse: null
+f1_score: null
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 2]
+thetas: [1, 1, 1, 1, 1, 1, 1]
+mse: null
+f1_score: null
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 2]
+thetas: [1, 1, 1, 1, 1, 1, 1]
+mse: null
+f1_score: null
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 2]
+thetas: [1, 1, 1, 1, 1, 1, 1]
+mse: null
+f1_score: null
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w3d3t3
+alpha: 0.1
+iter: 200
+polynomes: [3, 3, 3]
+thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+mse: null
+f1_score: null
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w3d3t3
+alpha: 0.1
+iter: 200
+polynomes: [3, 3, 3]
+thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+mse: null
+f1_score: null
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w3d3t3
+alpha: 0.1
+iter: 200
+polynomes: [3, 3, 3]
+thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+mse: null
+f1_score: null
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w3d3t3
+alpha: 0.1
+iter: 200
+polynomes: [3, 3, 3]
+thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+mse: null
+f1_score: null
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w3d3t3
+alpha: 0.1
+iter: 200
+polynomes: [3, 3, 3]
+thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+mse: null
+f1_score: null
+lambda: 0.8
+total_iter: 0
+evol_mse: []

@@ -26,3 +26,9 @@ model3.penality
 model3.lambda_
 # Output
 # 0.0
+y = np.array([1, 1, 0, 0, 1, 1, 0]).reshape((-1, 1))
+y_hat = np.array([.9, .79, .12, .04, .89, .93, .01]).reshape((-1, 1))
+theta = np.array([1, 2.5, 1.5, -0.9]).reshape((-1, 1))
+model4 = mylogr(theta=theta)
+print(model4.lambda_)
+print(model4.loss_(y, y_hat))
