@@ -4,7 +4,7 @@ iter: 200
 polynomes: [1, 1, 1]
 thetas: [1, 1, 1, 1]
 mse: null
-f1_score: null
+f1_score: 0.7494805194805194
 lambda: 0.0
 total_iter: 0
 evol_mse: []
@@ -15,7 +15,7 @@ iter: 200
 polynomes: [1, 1, 1]
 thetas: [1, 1, 1, 1]
 mse: null
-f1_score: null
+f1_score: 0.6546031746031746
 lambda: 0.2
 total_iter: 0
 evol_mse: []
@@ -26,7 +26,7 @@ iter: 200
 polynomes: [1, 1, 1]
 thetas: [1, 1, 1, 1]
 mse: null
-f1_score: null
+f1_score: 0.6434920634920636
 lambda: 0.4
 total_iter: 0
 evol_mse: []
@@ -37,7 +37,7 @@ iter: 200
 polynomes: [1, 1, 1]
 thetas: [1, 1, 1, 1]
 mse: null
-f1_score: null
+f1_score: 0.7226190476190477
 lambda: 0.6000000000000001
 total_iter: 0
 evol_mse: []
@@ -48,7 +48,7 @@ iter: 200
 polynomes: [1, 1, 1]
 thetas: [1, 1, 1, 1]
 mse: null
-f1_score: null
+f1_score: 0.8123809523809523
 lambda: 0.8
 total_iter: 0
 evol_mse: []
@@ -59,7 +59,7 @@ iter: 200
 polynomes: [2, 2, 2]
 thetas: [1, 1, 1, 1, 1, 1, 1]
 mse: null
-f1_score: null
+f1_score: 0.7623809523809524
 lambda: 0.0
 total_iter: 0
 evol_mse: []
@@ -70,7 +70,7 @@ iter: 200
 polynomes: [2, 2, 2]
 thetas: [1, 1, 1, 1, 1, 1, 1]
 mse: null
-f1_score: null
+f1_score: 0.6782539682539682
 lambda: 0.2
 total_iter: 0
 evol_mse: []
@@ -81,7 +81,7 @@ iter: 200
 polynomes: [2, 2, 2]
 thetas: [1, 1, 1, 1, 1, 1, 1]
 mse: null
-f1_score: null
+f1_score: 0.7335930735930736
 lambda: 0.4
 total_iter: 0
 evol_mse: []
@@ -92,7 +92,7 @@ iter: 200
 polynomes: [2, 2, 2]
 thetas: [1, 1, 1, 1, 1, 1, 1]
 mse: null
-f1_score: null
+f1_score: 0.7593650793650794
 lambda: 0.6000000000000001
 total_iter: 0
 evol_mse: []
@@ -103,7 +103,7 @@ iter: 200
 polynomes: [2, 2, 2]
 thetas: [1, 1, 1, 1, 1, 1, 1]
 mse: null
-f1_score: null
+f1_score: 0.6804256854256854
 lambda: 0.8
 total_iter: 0
 evol_mse: []
@@ -114,7 +114,7 @@ iter: 200
 polynomes: [3, 3, 3]
 thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 mse: null
-f1_score: null
+f1_score: 0.7035930735930738
 lambda: 0.0
 total_iter: 0
 evol_mse: []
@@ -125,7 +125,7 @@ iter: 200
 polynomes: [3, 3, 3]
 thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 mse: null
-f1_score: null
+f1_score: 0.7165079365079365
 lambda: 0.2
 total_iter: 0
 evol_mse: []
@@ -136,7 +136,7 @@ iter: 200
 polynomes: [3, 3, 3]
 thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 mse: null
-f1_score: null
+f1_score: 0.7144444444444444
 lambda: 0.4
 total_iter: 0
 evol_mse: []
@@ -147,7 +147,7 @@ iter: 200
 polynomes: [3, 3, 3]
 thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 mse: null
-f1_score: null
+f1_score: 0.7117765567765568
 lambda: 0.6000000000000001
 total_iter: 0
 evol_mse: []
@@ -158,7 +158,7 @@ iter: 200
 polynomes: [3, 3, 3]
 thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 mse: null
-f1_score: null
+f1_score: 0.6171428571428572
 lambda: 0.8
 total_iter: 0
 evol_mse: []

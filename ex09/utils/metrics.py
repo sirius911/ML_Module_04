@@ -36,7 +36,9 @@ def accuracy_score_(y, y_hat):
     """
     try:
         tp, fp, tn, fn = perf_measure(y, y_hat)
-        return (tp + tn) / (tp + fp + tn + fn)
+        if tp + fp + tn + fn != 0:
+            return (tp + tn) / (tp + fp + tn + fn)
+        return 0
     except Exception as inst:
         print(inst)
         return None
@@ -57,7 +59,9 @@ def precision_score_(y, y_hat, pos_label=1):
     """
     try:
         tp, fp, tn, fn = perf_measure(y, y_hat)
-        return (tp) / (tp + fp)
+        if tp + fp != 0:
+            return (tp) / (tp + fp)
+        return 0
     except Exception as inst:
         print(inst)
         return None
@@ -78,7 +82,9 @@ def recall_score_(y, y_hat, pos_label=1):
     """
     try:
         tp, fp, tn, fn = perf_measure(y, y_hat)
-        return (tp) / (tp + fn)
+        if tp + fn != 0:
+            return (tp) / (tp + fn)
+        return 0
     except Exception as inst:
         print(inst)
         return None
@@ -100,7 +106,9 @@ def f1_score_(y, y_hat, pos_label=1):
     precision = precision_score_(y, y_hat)
     recall = recall_score_(y, y_hat)
     try:
-        return (2 * precision * recall) / (precision + recall)
+        if precision + recall != 0:
+            return (2 * precision * recall) / (precision + recall)
+        return 0
     except Exception as inst:
         print(inst)
         return None

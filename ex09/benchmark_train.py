@@ -7,7 +7,7 @@ from utils.common import loading, colors
 from utils.normalizer import Normalizer
 from tqdm import tqdm
 from utils.utils_ml import add_polynomial_features, cross_validation
-from utils.logisticregression import LogisticRegression as myLR
+from utils.my_logistic_regression import MyLogisticRegression as myLR
 from utils.metrics import f1_score_
 
 
@@ -34,7 +34,7 @@ def format_all(arr):
     result = np.array(result).reshape(-1, 1)
     return result
 
-def one_vs_all(k_folds, lambda_, model):
+def one_vs_all(k_folds, model):
     result = pd.DataFrame()
     x_train, y_train, x_test, y_test = k_folds
     for zipcode in range(4):
@@ -42,18 +42,33 @@ def one_vs_all(k_folds, lambda_, model):
         theta = np.array(model['thetas']).reshape(-1,1)
         alpha = model['alpha']
         max_iter = model['iter']
-        my_lr = myLR(theta, alpha, max_iter, lambda_=lambda_)
+        lambda_ = model['lambda']
+        my_lr = myLR(theta, alpha, max_iter, lambda_=lambda_, progress_bar=False)
         my_lr.fit_(x_train, y_train_f)
         y_hat = my_lr.predict_(x_test)
         result[zipcode] = y_hat.reshape(len(y_hat))
     return f1_score_(y_test, format_all(result))
 
+def train(X, Y, list_model):
+
+    K = 10 # nb parts in cross_validation
+    for idx, model in enumerate(tqdm(list_model, leave=False)):
+        # print(f"{idx + 1}/{len(list_model)}Model {model['name']} lambda = {model['lambda']:0.2f} -> f1 score = ", end='\r', flush=True)
+        X_poly = add_polynomial_features(X, model['polynomes'])
+        model['f1_score'] = 0.0
+        for k_folds in tqdm(cross_validation(X_poly, Y, K=K), leave=False):
+            f1_score = one_vs_all(k_folds, model)
+            model['f1_score'] = model['f1_score'] + f1_score
+        #mean f1
+        model['f1_score'] = model['f1_score'] / K
+        # print(f"{model['f1_score']}")
+    return list_model
+
 def main():
-    print("Loading models ...")
+    print("Loading models ...", end='')
     try:
     # Importation of the dataset
         bio, citi = loading()
-
         #init models.yaml
         list_model = []
         try:
@@ -65,17 +80,28 @@ def main():
     except Exception :
         print("Issue when trying to retrieve the dataset.", file=sys.stderr)
         sys.exit()
+    if list_model is not None and len(list_model) > 0:
+        print(colors.green,"ok", colors.reset)
+    else:
+        print(colors.red, "KO", colors.reset)
+        return
 
+    print("Normalize ...", end='')
     #normalise
     scaler_x = Normalizer(bio)
     X = scaler_x.norme(bio)
     Y = citi
-    for model in tqdm(list_model, leave=False):
-        for lamda_ in np.arange(0, 1, 0.2):
-            X_poly = add_polynomial_features(X, model['polynomes'])
-            for k_folds in cross_validation(X_poly, Y, K=10):
-                f1_score = one_vs_all(k_folds, lamda_, model)
-                # print(f1_score)
+    print(colors.green, "ok", colors.reset)
+
+    print("******** TRAINING ********")
+    list_model = train(X, Y, list_model)
+    print("**************************")
+
+    print("Saving models ...", end='')
+    if save_model('models.yaml', list_model):
+        print(colors.green, "ok", colors.reset)
+    else:
+        print(colors.red, "KO", colors.reset)
 
 if __name__ == "__main__":
     print("Benchmar starting ...")
