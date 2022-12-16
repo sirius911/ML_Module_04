@@ -1,3 +1,4 @@
+import os
 import sys
 import pandas as pd
 import numpy as np
@@ -7,7 +8,7 @@ from utils.common import loading, colors
 from utils.normalizer import Normalizer
 from tqdm import tqdm
 from utils.utils_ml import add_polynomial_features, cross_validation
-from utils.my_logistic_regression import MyLogisticRegression as myLR
+from utils.mylogisticregression import MyLogisticRegression as myLR
 from utils.metrics import f1_score_
 
 
@@ -43,7 +44,7 @@ def one_vs_all(k_folds, model):
         alpha = model['alpha']
         max_iter = model['iter']
         lambda_ = model['lambda']
-        my_lr = myLR(theta, alpha, max_iter, lambda_=lambda_, progress_bar=False)
+        my_lr = myLR(theta, alpha, max_iter, lambda_=lambda_)
         my_lr.fit_(x_train, y_train_f)
         y_hat = my_lr.predict_(x_test)
         result[zipcode] = y_hat.reshape(len(y_hat))
@@ -65,18 +66,17 @@ def train(X, Y, list_model):
     return list_model
 
 def main():
-    print("Loading models ...", end='')
+    if os.path.exists('models.yaml') == False:
+        if not init_model_yaml():
+            sys.exit()
     try:
-    # Importation of the dataset
+        print("Loading data ...", end='')
+        # Importation of the dataset
         bio, citi = loading()
         #init models.yaml
         list_model = []
-        try:
-            with open('models.yaml', 'r') as stream:
-                list_model = list(yaml.safe_load_all(stream))
-        except Exception as e:
-            if not init_model_yaml():
-                sys.exit()
+        with open('models.yaml', 'r') as stream:
+            list_model = list(yaml.safe_load_all(stream))
     except Exception :
         print("Issue when trying to retrieve the dataset.", file=sys.stderr)
         sys.exit()
