@@ -3,7 +3,7 @@ import sys
 import pandas as pd
 import numpy as np
 import yaml
-from utils.ft_yaml import init_model_yaml, load_model, save_model
+from utils.ft_yaml import init_model_yaml, save_model
 from utils.common import loading, colors
 from utils.normalizer import Normalizer
 from tqdm import tqdm
