@@ -48,6 +48,7 @@ def one_vs_all(k_folds, model):
         my_lr.fit_(x_train, y_train_f)
         y_hat = my_lr.predict_(x_test)
         result[zipcode] = y_hat.reshape(len(y_hat))
+        model['thetas'] = [float(tta) for tta in my_lr.theta]
     return f1_score_(y_test, format_all(result))
 
 def train(X, Y, list_model):
@@ -62,7 +63,6 @@ def train(X, Y, list_model):
             model['f1_score'] = model['f1_score'] + f1_score
         #mean f1
         model['f1_score'] = model['f1_score'] / K
-        # print(f"{model['f1_score']}")
     return list_model
 
 def main():

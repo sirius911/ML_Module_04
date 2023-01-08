@@ -4,7 +4,7 @@ from utils.ft_progress import ft_progress
 import itertools
 
 
-def init_model_yaml(file = 'models.yaml', lambda_range=np.arange(0.0, 1.0, 0.2, dtype=np.float64)):
+def init_model_yaml(file = 'models.yaml', lambda_range=np.arange(0.0, 1.2, 0.2, dtype=np.float64)):
     """
     init the file models.yaml
     with structure of all the models

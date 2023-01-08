@@ -2,9 +2,9 @@ name: w1d1t1
 alpha: 0.1
 iter: 200
 polynomes: [1, 1, 1]
-thetas: [1, 1, 1, 1]
+thetas: [-1.5982868120232328, -0.807552820546421, 0.9882181009059575, -1.1606880555773658]
 mse: null
-f1_score: 0.7577777777777779
+f1_score: 0.676984126984127
 lambda: 0.0
 total_iter: 0
 evol_mse: []
@@ -13,9 +13,9 @@ name: w1d1t1
 alpha: 0.1
 iter: 200
 polynomes: [1, 1, 1]
-thetas: [1, 1, 1, 1]
+thetas: [-1.607333164384138, -0.7858239080176901, 1.1183450146292642, -1.079407704121501]
 mse: null
-f1_score: 0.619920634920635
+f1_score: 0.7022222222222221
 lambda: 0.2
 total_iter: 0
 evol_mse: []
@@ -24,9 +24,9 @@ name: w1d1t1
 alpha: 0.1
 iter: 200
 polynomes: [1, 1, 1]
-thetas: [1, 1, 1, 1]
+thetas: [-1.4636553082295445, -0.8518498763866024, 1.0719935037693462, -1.2861031925089303]
 mse: null
-f1_score: 0.783997113997114
+f1_score: 0.7645238095238095
 lambda: 0.4
 total_iter: 0
 evol_mse: []
@@ -35,9 +35,9 @@ name: w1d1t1
 alpha: 0.1
 iter: 200
 polynomes: [1, 1, 1]
-thetas: [1, 1, 1, 1]
+thetas: [-1.5501554277787446, -0.6898532306898784, 0.992890811982045, -1.1067404395641423]
 mse: null
-f1_score: 0.6690476190476191
+f1_score: 0.7996031746031746
 lambda: 0.6000000000000001
 total_iter: 0
 evol_mse: []
@@ -46,9 +46,80 @@ name: w1d1t1
 alpha: 0.1
 iter: 200
 polynomes: [1, 1, 1]
-thetas: [1, 1, 1, 1]
+thetas: [-1.4478264950206476, -0.7498101743962993, 1.057709858700941, -1.1404176506364714]
 mse: null
-f1_score: 0.6074603174603175
+f1_score: 0.5825396825396825
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w1d1t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 1, 1]
+thetas: [-1.475009935203359, -0.7676455576419073, 0.968775066274733, -1.096015266075619]
+mse: null
+f1_score: 0.7059018759018758
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w1d1t2
+alpha: 0.1
+iter: 200
+polynomes: [1, 1, 2]
+thetas: [-1.5985935874173343, -0.766384247984868, 1.3246124119628038, -1.132668940849895,
+  -0.02592712350054778]
+mse: null
+f1_score: 0.7509523809523808
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w1d1t2
+alpha: 0.1
+iter: 200
+polynomes: [1, 1, 2]
+thetas: [-1.5713998449990096, -0.8142467115229731, 1.1072550130041392, -1.1768040274351854,
+  -0.036899902527555435]
+mse: null
+f1_score: 0.7734126984126984
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w1d1t2
+alpha: 0.1
+iter: 200
+polynomes: [1, 1, 2]
+thetas: [-1.563222105734933, -0.6754375792655317, 1.0004378590710155, -1.0746502280154344,
+  -0.04023062025467314]
+mse: null
+f1_score: 0.7571789321789322
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w1d1t2
+alpha: 0.1
+iter: 200
+polynomes: [1, 1, 2]
+thetas: [-1.6606570765344726, -0.6964019040219357, 0.9005537563864461, -1.1864632015413643,
+  0.01042544444875539]
+mse: null
+f1_score: 0.6733333333333332
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w1d1t2
+alpha: 0.1
+iter: 200
+polynomes: [1, 1, 2]
+thetas: [-1.5246050913209956, -0.7227240413809377, 0.9933599636333527, -1.0253832303792338,
+  -0.0647464326230623]
+mse: null
+f1_score: 0.7577528027528028
 lambda: 0.8
 total_iter: 0
 evol_mse: []
@@ -57,54 +128,11 @@ name: w1d1t2
 alpha: 0.1
 iter: 200
 polynomes: [1, 1, 2]
-thetas: [1, 1, 1, 1, 1]
+thetas: [-1.5089381778045754, -0.7084286055562116, 0.9480423511843517, -1.0804271027151406,
+  -0.031173242845002683]
 mse: null
-f1_score: 0.6303174603174603
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w1d1t2
-alpha: 0.1
-iter: 200
-polynomes: [1, 1, 2]
-thetas: [1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7214285714285714
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w1d1t2
-alpha: 0.1
-iter: 200
-polynomes: [1, 1, 2]
-thetas: [1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.5332539682539682
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w1d1t2
-alpha: 0.1
-iter: 200
-polynomes: [1, 1, 2]
-thetas: [1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6466666666666666
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w1d1t2
-alpha: 0.1
-iter: 200
-polynomes: [1, 1, 2]
-thetas: [1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6695238095238095
-lambda: 0.8
+f1_score: 0.7133333333333333
+lambda: 1.0
 total_iter: 0
 evol_mse: []
 ---
@@ -112,9 +140,10 @@ name: w1d1t3
 alpha: 0.1
 iter: 200
 polynomes: [1, 1, 3]
-thetas: [1, 1, 1, 1, 1, 1]
+thetas: [-1.2743318153366223, -0.7939889672278556, 1.0728425964115746, -0.6069195933325268,
+  -0.580857120381145, -0.45345337554993315]
 mse: null
-f1_score: 0.7038095238095238
+f1_score: 0.7279365079365079
 lambda: 0.0
 total_iter: 0
 evol_mse: []
@@ -123,9 +152,10 @@ name: w1d1t3
 alpha: 0.1
 iter: 200
 polynomes: [1, 1, 3]
-thetas: [1, 1, 1, 1, 1, 1]
+thetas: [-1.4353528644776263, -0.7553245574214151, 1.1777860383000125, -0.6024417951118994,
+  -0.41405693073447514, -0.38312638209979594]
 mse: null
-f1_score: 0.7674603174603175
+f1_score: 0.7313492063492064
 lambda: 0.2
 total_iter: 0
 evol_mse: []
@@ -134,9 +164,10 @@ name: w1d1t3
 alpha: 0.1
 iter: 200
 polynomes: [1, 1, 3]
-thetas: [1, 1, 1, 1, 1, 1]
+thetas: [-1.3458028411794196, -0.8128470336631582, 1.06353609739147, -0.503896154301453,
+  -0.4490257916146871, -0.6035373722387131]
 mse: null
-f1_score: 0.6273992673992674
+f1_score: 0.671923076923077
 lambda: 0.4
 total_iter: 0
 evol_mse: []
@@ -145,9 +176,10 @@ name: w1d1t3
 alpha: 0.1
 iter: 200
 polynomes: [1, 1, 3]
-thetas: [1, 1, 1, 1, 1, 1]
+thetas: [-1.4816848460217855, -0.5713727177368156, 1.1290396525050848, -0.674388995611638,
+  -0.3981870386136646, -0.3469745044823611]
 mse: null
-f1_score: 0.7261471861471861
+f1_score: 0.6234598734598735
 lambda: 0.6000000000000001
 total_iter: 0
 evol_mse: []
@@ -156,9 +188,82 @@ name: w1d1t3
 alpha: 0.1
 iter: 200
 polynomes: [1, 1, 3]
-thetas: [1, 1, 1, 1, 1, 1]
+thetas: [-1.3225971640163914, -0.7061231356678702, 0.9651268217399221, -0.6202248080278877,
+  -0.3989768012319954, -0.47276842134685615]
 mse: null
-f1_score: 0.7178354978354978
+f1_score: 0.679047619047619
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w1d1t3
+alpha: 0.1
+iter: 200
+polynomes: [1, 1, 3]
+thetas: [-1.5290633846946893, -0.4809231518975862, 0.9434727892059985, -0.553659578638034,
+  -0.43562772678819756, -0.41371540650591104]
+mse: null
+f1_score: 0.5746031746031746
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w1d2t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 2, 1]
+thetas: [-1.406723266201842, -0.7082715708660356, 1.1739031398389037, -1.1858357374543147,
+  -0.2373700397438007]
+mse: null
+f1_score: 0.696060606060606
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w1d2t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 2, 1]
+thetas: [-1.3645509462818695, -0.7714485782304941, 1.2025483079804582, -1.1661596385934148,
+  -0.22746002225149578]
+mse: null
+f1_score: 0.7072222222222222
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w1d2t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 2, 1]
+thetas: [-1.524361203204564, -0.5878449794834868, 1.238459432364191, -1.0943425487904423,
+  -0.07581634641491244]
+mse: null
+f1_score: 0.6701587301587302
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w1d2t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 2, 1]
+thetas: [-1.4728527069176396, -0.7863442217431085, 1.170741599716872, -1.0513361390411622,
+  -0.24191169561861486]
+mse: null
+f1_score: 0.7052741702741703
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w1d2t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 2, 1]
+thetas: [-1.465074531498851, -0.788107893219541, 1.1241621760210414, -1.1366326620358735,
+  -0.17294620513828712]
+mse: null
+f1_score: 0.72
 lambda: 0.8
 total_iter: 0
 evol_mse: []
@@ -167,54 +272,11 @@ name: w1d2t1
 alpha: 0.1
 iter: 200
 polynomes: [1, 2, 1]
-thetas: [1, 1, 1, 1, 1]
+thetas: [-1.403882609123717, -0.7527516854459047, 1.0969787359895085, -1.0284627952941174,
+  -0.1636048293610188]
 mse: null
-f1_score: 0.6709090909090908
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w1d2t1
-alpha: 0.1
-iter: 200
-polynomes: [1, 2, 1]
-thetas: [1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7253391053391053
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w1d2t1
-alpha: 0.1
-iter: 200
-polynomes: [1, 2, 1]
-thetas: [1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7595238095238096
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w1d2t1
-alpha: 0.1
-iter: 200
-polynomes: [1, 2, 1]
-thetas: [1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.5784126984126984
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w1d2t1
-alpha: 0.1
-iter: 200
-polynomes: [1, 2, 1]
-thetas: [1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6678138528138529
-lambda: 0.8
+f1_score: 0.6126190476190476
+lambda: 1.0
 total_iter: 0
 evol_mse: []
 ---
@@ -222,9 +284,10 @@ name: w1d2t2
 alpha: 0.1
 iter: 200
 polynomes: [1, 2, 2]
-thetas: [1, 1, 1, 1, 1, 1]
+thetas: [-1.489254168584992, -0.7680132712371784, 1.1580083479268581, -1.1906183889987814,
+  -0.3379417133199788, 0.026893363627171995]
 mse: null
-f1_score: 0.6961965811965811
+f1_score: 0.6988278388278387
 lambda: 0.0
 total_iter: 0
 evol_mse: []
@@ -233,702 +296,987 @@ name: w1d2t2
 alpha: 0.1
 iter: 200
 polynomes: [1, 2, 2]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.8482539682539683
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w1d2t2
-alpha: 0.1
-iter: 200
-polynomes: [1, 2, 2]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7176984126984126
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w1d2t2
-alpha: 0.1
-iter: 200
-polynomes: [1, 2, 2]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7057142857142856
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w1d2t2
-alpha: 0.1
-iter: 200
-polynomes: [1, 2, 2]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.5532539682539682
-lambda: 0.8
-total_iter: 0
-evol_mse: []
----
-name: w1d2t3
-alpha: 0.1
-iter: 200
-polynomes: [1, 2, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.700079365079365
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w1d2t3
-alpha: 0.1
-iter: 200
-polynomes: [1, 2, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7776190476190477
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w1d2t3
-alpha: 0.1
-iter: 200
-polynomes: [1, 2, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6853535353535354
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w1d2t3
-alpha: 0.1
-iter: 200
-polynomes: [1, 2, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6706027306027306
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w1d2t3
-alpha: 0.1
-iter: 200
-polynomes: [1, 2, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6548412698412698
-lambda: 0.8
-total_iter: 0
-evol_mse: []
----
-name: w1d3t1
-alpha: 0.1
-iter: 200
-polynomes: [1, 3, 1]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6946320346320346
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w1d3t1
-alpha: 0.1
-iter: 200
-polynomes: [1, 3, 1]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.617012987012987
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w1d3t1
-alpha: 0.1
-iter: 200
-polynomes: [1, 3, 1]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7091269841269842
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w1d3t1
-alpha: 0.1
-iter: 200
-polynomes: [1, 3, 1]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6830952380952381
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w1d3t1
-alpha: 0.1
-iter: 200
-polynomes: [1, 3, 1]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.746031746031746
-lambda: 0.8
-total_iter: 0
-evol_mse: []
----
-name: w1d3t2
-alpha: 0.1
-iter: 200
-polynomes: [1, 3, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6938095238095239
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w1d3t2
-alpha: 0.1
-iter: 200
-polynomes: [1, 3, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7792424242424242
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w1d3t2
-alpha: 0.1
-iter: 200
-polynomes: [1, 3, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6807142857142857
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w1d3t2
-alpha: 0.1
-iter: 200
-polynomes: [1, 3, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7306410256410256
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w1d3t2
-alpha: 0.1
-iter: 200
-polynomes: [1, 3, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7507142857142857
-lambda: 0.8
-total_iter: 0
-evol_mse: []
----
-name: w1d3t3
-alpha: 0.1
-iter: 200
-polynomes: [1, 3, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6463852813852815
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w1d3t3
-alpha: 0.1
-iter: 200
-polynomes: [1, 3, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.683113553113553
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w1d3t3
-alpha: 0.1
-iter: 200
-polynomes: [1, 3, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7126190476190476
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w1d3t3
-alpha: 0.1
-iter: 200
-polynomes: [1, 3, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6234126984126984
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w1d3t3
-alpha: 0.1
-iter: 200
-polynomes: [1, 3, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7371428571428571
-lambda: 0.8
-total_iter: 0
-evol_mse: []
----
-name: w2d1t1
-alpha: 0.1
-iter: 200
-polynomes: [2, 1, 1]
-thetas: [1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6292857142857143
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w2d1t1
-alpha: 0.1
-iter: 200
-polynomes: [2, 1, 1]
-thetas: [1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6836507936507936
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w2d1t1
-alpha: 0.1
-iter: 200
-polynomes: [2, 1, 1]
-thetas: [1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6487590187590186
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w2d1t1
-alpha: 0.1
-iter: 200
-polynomes: [2, 1, 1]
-thetas: [1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6916666666666667
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w2d1t1
-alpha: 0.1
-iter: 200
-polynomes: [2, 1, 1]
-thetas: [1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6504761904761904
-lambda: 0.8
-total_iter: 0
-evol_mse: []
----
-name: w2d1t2
-alpha: 0.1
-iter: 200
-polynomes: [2, 1, 2]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7295454545454546
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w2d1t2
-alpha: 0.1
-iter: 200
-polynomes: [2, 1, 2]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7982539682539682
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w2d1t2
-alpha: 0.1
-iter: 200
-polynomes: [2, 1, 2]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.626031746031746
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w2d1t2
-alpha: 0.1
-iter: 200
-polynomes: [2, 1, 2]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6934126984126984
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w2d1t2
-alpha: 0.1
-iter: 200
-polynomes: [2, 1, 2]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6317748917748918
-lambda: 0.8
-total_iter: 0
-evol_mse: []
----
-name: w2d1t3
-alpha: 0.1
-iter: 200
-polynomes: [2, 1, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7034126984126984
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w2d1t3
-alpha: 0.1
-iter: 200
-polynomes: [2, 1, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7134126984126984
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w2d1t3
-alpha: 0.1
-iter: 200
-polynomes: [2, 1, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6864646464646464
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w2d1t3
-alpha: 0.1
-iter: 200
-polynomes: [2, 1, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.604047619047619
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w2d1t3
-alpha: 0.1
-iter: 200
-polynomes: [2, 1, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6082828282828283
-lambda: 0.8
-total_iter: 0
-evol_mse: []
----
-name: w2d2t1
-alpha: 0.1
-iter: 200
-polynomes: [2, 2, 1]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6973304473304475
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w2d2t1
-alpha: 0.1
-iter: 200
-polynomes: [2, 2, 1]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.4990476190476191
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w2d2t1
-alpha: 0.1
-iter: 200
-polynomes: [2, 2, 1]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6857142857142857
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w2d2t1
-alpha: 0.1
-iter: 200
-polynomes: [2, 2, 1]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6482289932289931
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w2d2t1
-alpha: 0.1
-iter: 200
-polynomes: [2, 2, 1]
-thetas: [1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7001587301587302
-lambda: 0.8
-total_iter: 0
-evol_mse: []
----
-name: w2d2t2
-alpha: 0.1
-iter: 200
-polynomes: [2, 2, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6422222222222222
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w2d2t2
-alpha: 0.1
-iter: 200
-polynomes: [2, 2, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.8507142857142856
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w2d2t2
-alpha: 0.1
-iter: 200
-polynomes: [2, 2, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.615952380952381
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w2d2t2
-alpha: 0.1
-iter: 200
-polynomes: [2, 2, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6607142857142857
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w2d2t2
-alpha: 0.1
-iter: 200
-polynomes: [2, 2, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6386868686868687
-lambda: 0.8
-total_iter: 0
-evol_mse: []
----
-name: w2d2t3
-alpha: 0.1
-iter: 200
-polynomes: [2, 2, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7768253968253969
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w2d2t3
-alpha: 0.1
-iter: 200
-polynomes: [2, 2, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7093650793650794
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w2d2t3
-alpha: 0.1
-iter: 200
-polynomes: [2, 2, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6595526695526696
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w2d2t3
-alpha: 0.1
-iter: 200
-polynomes: [2, 2, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.5196031746031746
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w2d2t3
-alpha: 0.1
-iter: 200
-polynomes: [2, 2, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.721984126984127
-lambda: 0.8
-total_iter: 0
-evol_mse: []
----
-name: w2d3t1
-alpha: 0.1
-iter: 200
-polynomes: [2, 3, 1]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7071428571428572
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w2d3t1
-alpha: 0.1
-iter: 200
-polynomes: [2, 3, 1]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.5204761904761904
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w2d3t1
-alpha: 0.1
-iter: 200
-polynomes: [2, 3, 1]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6748412698412698
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w2d3t1
-alpha: 0.1
-iter: 200
-polynomes: [2, 3, 1]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.5673809523809523
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w2d3t1
-alpha: 0.1
-iter: 200
-polynomes: [2, 3, 1]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7682539682539683
-lambda: 0.8
-total_iter: 0
-evol_mse: []
----
-name: w2d3t2
-alpha: 0.1
-iter: 200
-polynomes: [2, 3, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6669408369408371
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w2d3t2
-alpha: 0.1
-iter: 200
-polynomes: [2, 3, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.657142857142857
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w2d3t2
-alpha: 0.1
-iter: 200
-polynomes: [2, 3, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6597186147186147
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w2d3t2
-alpha: 0.1
-iter: 200
-polynomes: [2, 3, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7011904761904761
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w2d3t2
-alpha: 0.1
-iter: 200
-polynomes: [2, 3, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.385360056543912, -0.857381313696057, 1.122717680505142, -1.1458918614036386,
+  -0.1875467437292294, -0.038156511596841726]
 mse: null
 f1_score: 0.6698412698412699
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w1d2t2
+alpha: 0.1
+iter: 200
+polynomes: [1, 2, 2]
+thetas: [-1.4613737085335314, -0.7802069262468385, 1.093713180811783, -1.1539596140856418,
+  -0.14755181218437352, -0.0864716548989016]
+mse: null
+f1_score: 0.5249999999999999
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w1d2t2
+alpha: 0.1
+iter: 200
+polynomes: [1, 2, 2]
+thetas: [-1.3310818188108606, -0.7754061108638626, 1.125799525673382, -1.176613156512426,
+  -0.2041804102030752, -0.0734163347634218]
+mse: null
+f1_score: 0.7333333333333334
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w1d2t2
+alpha: 0.1
+iter: 200
+polynomes: [1, 2, 2]
+thetas: [-1.48390056760411, -0.7300496547131695, 1.0387604009359297, -1.1311347546073751,
+  -0.15342863769305423, -0.035889206256735924]
+mse: null
+f1_score: 0.6558408258408257
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w1d2t2
+alpha: 0.1
+iter: 200
+polynomes: [1, 2, 2]
+thetas: [-1.5610120870834332, -0.6354539042189322, 1.0909272676284352, -1.0868669154668924,
+  -0.12964671633320662, -0.03869929781250599]
+mse: null
+f1_score: 0.766984126984127
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w1d2t3
+alpha: 0.1
+iter: 200
+polynomes: [1, 2, 3]
+thetas: [-1.368732539216478, -0.7838896242312978, 1.250830475621362, -0.623765150097069,
+  -0.20070648202667082, -0.5135579706588236, -0.3500241103279034]
+mse: null
+f1_score: 0.7559884559884559
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w1d2t3
+alpha: 0.1
+iter: 200
+polynomes: [1, 2, 3]
+thetas: [-1.2861952538805794, -0.74925641375588, 1.173218498015523, -0.7138467469954484,
+  -0.1694412133206519, -0.47504888962434366, -0.37451805038918257]
+mse: null
+f1_score: 0.6838888888888889
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w1d2t3
+alpha: 0.1
+iter: 200
+polynomes: [1, 2, 3]
+thetas: [-1.2903357255068688, -0.7372329942077773, 1.1756692105590596, -0.6458243824057873,
+  -0.15199186623779654, -0.43994358761348307, -0.37870773475602776]
+mse: null
+f1_score: 0.7813347763347763
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w1d2t3
+alpha: 0.1
+iter: 200
+polynomes: [1, 2, 3]
+thetas: [-1.395294585844909, -0.7344475727692799, 1.1308764353300704, -0.6570807436320614,
+  -0.10200313377203285, -0.4337789178015458, -0.3669661454323465]
+mse: null
+f1_score: 0.5916666666666667
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w1d2t3
+alpha: 0.1
+iter: 200
+polynomes: [1, 2, 3]
+thetas: [-1.3921416840221552, -0.7431938842198402, 1.0278323812025474, -0.7107593513198436,
+  -0.07876597388873381, -0.42816889181626533, -0.3667139686107106]
+mse: null
+f1_score: 0.7299206349206349
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w1d2t3
+alpha: 0.1
+iter: 200
+polynomes: [1, 2, 3]
+thetas: [-1.2003041899552949, -0.6688903741615416, 1.089963671722868, -0.6382159079037256,
+  -0.21585039956092988, -0.3885940974078065, -0.35058245586959136]
+mse: null
+f1_score: 0.6840476190476191
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 1]
+thetas: [-1.239917737034683, -0.7602406973955989, 0.6209344608253187, -1.2411514997527433,
+  -0.7033624330765821, 0.337681863840893]
+mse: null
+f1_score: 0.5354761904761904
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 1]
+thetas: [-1.2183240692742972, -0.8096140225130314, 0.6578694604520345, -1.3378917559242174,
+  -0.6848184710606472, 0.3574252579219153]
+mse: null
+f1_score: 0.5707142857142856
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 1]
+thetas: [-1.2533388612784426, -0.7797835449702625, 0.5725243803398206, -1.1635566061440679,
+  -0.6384291790797251, 0.347788055800819]
+mse: null
+f1_score: 0.6171428571428572
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 1]
+thetas: [-1.2896491053644608, -0.7542761157694393, 0.6053035737807195, -1.1432195073591513,
+  -0.5727237257612104, 0.36147585924892767]
+mse: null
+f1_score: 0.7072510822510821
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 1]
+thetas: [-1.2994070133375497, -0.8191275316805726, 0.6229581963399697, -1.1904591364830996,
+  -0.5576789390603147, 0.3544201714715178]
+mse: null
+f1_score: 0.7566666666666667
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t1
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 1]
+thetas: [-1.2434339820731124, -0.7874536693086931, 0.6660056204289623, -1.338054352918134,
+  -0.5012854815302253, 0.24489583878316842]
+mse: null
+f1_score: 0.6641125541125541
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t2
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 2]
+thetas: [-1.2218030337262018, -0.8692941795167289, 0.5858217037216852, -1.1536535796888814,
+  -0.7589451337327174, 0.43970343654009825, -0.15339933288337526]
+mse: null
+f1_score: 0.6260606060606062
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t2
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 2]
+thetas: [-1.3092332283562766, -0.6411034554336497, 0.6320399863132962, -1.0990666486552003,
+  -0.6831665399390846, 0.40580870394820473, -0.07095543455443216]
+mse: null
+f1_score: 0.7743939393939394
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t2
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 2]
+thetas: [-1.2705935089398264, -0.7248486178686837, 0.6509018718614582, -1.0560369950631723,
+  -0.619911459895517, 0.3849566370278455, 0.0084180377331114]
+mse: null
+f1_score: 0.6845421245421245
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t2
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 2]
+thetas: [-1.2641371473515914, -0.7808169228804506, 0.6578762714408313, -1.075342151889057,
+  -0.6374477741178244, 0.3594336362512615, -0.028691220378969463]
+mse: null
+f1_score: 0.69
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t2
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 2]
+thetas: [-1.134441945021654, -0.7667299141601037, 0.6238960376141964, -1.1435224428980744,
+  -0.6126988964516734, 0.34078000910838135, -0.029226915701821232]
+mse: null
+f1_score: 0.6347113997113997
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t2
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 2]
+thetas: [-1.2273687192411429, -0.7548422777273873, 0.6341708110003377, -1.0629533294763744,
+  -0.5350521920541805, 0.3430658008897039, -0.032220062411544174]
+mse: null
+f1_score: 0.6738095238095239
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t3
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 3]
+thetas: [-1.1666120098992445, -0.746590757233012, 0.5561323415442848, -0.7140580045154276,
+  -0.6350161211428458, 0.7687767833689159, -0.49067907327395366, -0.3409967482543404]
+mse: null
+f1_score: 0.6714285714285714
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t3
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 3]
+thetas: [-1.1155833814951865, -0.811274033371049, 0.6617252303250718, -0.6642365108346706,
+  -0.6791561951166533, 0.3839199196052328, -0.4215559638954647, -0.3835504310637101]
+mse: null
+f1_score: 0.7474603174603175
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t3
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 3]
+thetas: [-1.1546338313938402, -0.7254628112171126, 0.6395276406749892, -0.6590997527957599,
+  -0.5863297693091994, 0.3861641690829345, -0.4021734128064043, -0.33379461371911323]
+mse: null
+f1_score: 0.7
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t3
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 3]
+thetas: [-1.0431333269964156, -0.7362709791597005, 0.6310774809176131, -0.6919825158427536,
+  -0.5702489964600942, 0.36085013361049745, -0.39891592811232734, -0.35088954450703885]
+mse: null
+f1_score: 0.5355555555555556
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t3
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 3]
+thetas: [-1.1809455129477395, -0.6708544743767045, 0.6896440081792095, -0.6817203590373239,
+  -0.49057285817354046, 0.3192824199821475, -0.39370011769601126, -0.3077987015296997]
+mse: null
+f1_score: 0.7083333333333334
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w1d3t3
+alpha: 0.1
+iter: 200
+polynomes: [1, 3, 3]
+thetas: [-1.2704722482403412, -0.6295093302849757, 0.7067145813239334, -0.6453967410769318,
+  -0.48512028739566704, 0.31935776845487635, -0.3750355834243104, -0.3477966950838963]
+mse: null
+f1_score: 0.7516666666666666
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 1]
+thetas: [-1.3998228267226256, -0.7213423405330261, 1.165365148215191, -1.2107550259988908,
+  -0.25452153143929984]
+mse: null
+f1_score: 0.6460606060606061
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 1]
+thetas: [-1.4682205690592727, -0.6498018110621661, 1.2372783205954005, -1.1495031292324156,
+  -0.4282855601287867]
+mse: null
+f1_score: 0.7193073593073592
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 1]
+thetas: [-1.446260598022199, -0.7490074234934403, 1.0472183605400713, -1.185639781503353,
+  -0.19871181803524585]
+mse: null
+f1_score: 0.7383333333333334
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 1]
+thetas: [-1.4811554589937868, -0.7728067173848334, 1.1272000905459525, -0.9526532054082484,
+  -0.24261803976207563]
+mse: null
+f1_score: 0.7444444444444445
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 1]
+thetas: [-1.4811094206094955, -0.7105786430315869, 1.0384763524967737, -1.191792963058506,
+  -0.21248335688844516]
+mse: null
+f1_score: 0.6304761904761904
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 1]
+thetas: [-1.383792996479764, -0.7062883215639215, 1.0248224755710162, -1.098838230572166,
+  -0.2708695652738993]
+mse: null
+f1_score: 0.6278571428571429
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 2]
+thetas: [-1.3832791362017263, -0.5929428121566418, 1.0054325759988743, -1.3045412914587657,
+  -0.3922686028933145, 0.25078384091112915]
+mse: null
+f1_score: 0.6645238095238095
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 2]
+thetas: [-1.3492187013108148, -0.6771162812875196, 1.0438443300154965, -1.1806432957199702,
+  -0.23558172817308884, -0.050431998060416795]
+mse: null
+f1_score: 0.6498412698412698
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 2]
+thetas: [-1.4666869070164181, -0.7295462150774379, 1.1506487725524701, -1.078495170477055,
+  -0.23870989501679496, 0.022180426514316506]
+mse: null
+f1_score: 0.6707359307359309
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 2]
+thetas: [-1.4131893292178093, -0.6228343179461865, 1.022123354890631, -1.108350924513938,
+  -0.31828435109372755, 0.07771355605724833]
+mse: null
+f1_score: 0.761139971139971
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 2]
+thetas: [-1.4520370566924923, -0.7512325624130562, 1.0691263949665417, -1.0671502001665338,
+  -0.2205733977975883, -0.0307693170707629]
+mse: null
+f1_score: 0.6669230769230768
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 2]
+thetas: [-1.3476229382015514, -0.5588598391737131, 1.1405144147296313, -1.0519681572661332,
+  -0.23791904298865382, -0.010918732867354421]
+mse: null
+f1_score: 0.7605050505050506
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 3]
+thetas: [-1.2057031669548277, -0.5935623467723233, 1.098491953965675, -0.5441916022551128,
+  -0.33334084931052427, -0.3942069050723748, -0.5251064543777744]
+mse: null
+f1_score: 0.6565079365079365
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 3]
+thetas: [-1.3258977245531436, -0.7089074343865565, 1.1393804295852785, -0.6030108420342218,
+  -0.2177882790184325, -0.45065637889027715, -0.41939407840743587]
+mse: null
+f1_score: 0.6637878787878788
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 3]
+thetas: [-1.2013650146237331, -0.769004603559509, 1.1279754908567459, -0.6668335788466895,
+  -0.2435373113653443, -0.4990501611240595, -0.3242699111015979]
+mse: null
+f1_score: 0.665079365079365
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 3]
+thetas: [-1.2267451973547505, -0.6528621350847452, 1.2076702362388043, -0.6155158784325337,
+  -0.1796815426640667, -0.48576161382934163, -0.39856878372296095]
+mse: null
+f1_score: 0.5893650793650794
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 3]
+thetas: [-1.1526337526766912, -0.6095074882639172, 1.1454208804586459, -0.6460822969046379,
+  -0.2516943537737295, -0.36508442434173083, -0.32998080311547073]
+mse: null
+f1_score: 0.8116883116883116
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w2d1t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 1, 3]
+thetas: [-1.2910053642716846, -0.6315545574071418, 1.1194856650158043, -0.5535208421880761,
+  -0.20417238342712757, -0.36872075822349876, -0.3668013819834934]
+mse: null
+f1_score: 0.7823809523809524
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 1]
+thetas: [-1.208844598560675, -0.6618727024505734, 1.2630982457760562, -1.1850642493907548,
+  -0.33516875470091434, -0.07620658790784694]
+mse: null
+f1_score: 0.6374891774891774
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 1]
+thetas: [-1.1873241072112561, -0.7398613593596132, 1.1781291486388, -1.1960566172377538,
+  -0.24891825774784765, -0.23451069137159972]
+mse: null
+f1_score: 0.6227272727272728
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 1]
+thetas: [-1.3340173704876697, -0.762728812874507, 1.115218880264542, -1.1782807594216533,
+  -0.24913052782655268, -0.1264639402379279]
+mse: null
+f1_score: 0.6896031746031746
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 1]
+thetas: [-1.284074662211685, -0.719841784713289, 1.131100088948916, -1.093107123813244,
+  -0.21652910700773906, -0.1540350153261067]
+mse: null
+f1_score: 0.7064935064935065
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 1]
+thetas: [-1.2985040832964094, -0.6698753688026824, 1.0829844620248732, -1.310694148690343,
+  -0.22562009804431288, -0.2192471546493037]
+mse: null
+f1_score: 0.6359523809523808
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 1]
+thetas: [-1.2956031773830812, -0.6904244079134875, 1.0200379153747208, -1.1764630797170301,
+  -0.1800766792655576, -0.15884479584121408]
+mse: null
+f1_score: 0.5516666666666666
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 2]
+thetas: [-1.3798688056369797, -0.6063823438244667, 1.3650434092379848, -1.2756204574157528,
+  -0.38162409620206494, -0.11771010355369108, 0.13515058683013983]
+mse: null
+f1_score: 0.6078571428571429
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 2]
+thetas: [-1.3454576556694806, -0.7792755220271163, 1.1494241823423463, -1.1599188552085131,
+  -0.23420166433923922, -0.16202419422198966, -0.043921229006675735]
+mse: null
+f1_score: 0.6178571428571428
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 2]
+thetas: [-1.3267657832200084, -0.6220547417229247, 1.107547971141214, -1.1960048963349488,
+  -0.304178811016891, -0.12347858915780245, 0.0015064458121313536]
+mse: null
+f1_score: 0.671190476190476
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 2]
+thetas: [-1.2745173127565792, -0.7570195791946611, 1.1469992700580678, -1.1690296593304073,
+  -0.20229104354397925, -0.233512009110578, 0.11785133460182948]
+mse: null
+f1_score: 0.6936002886002886
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 2]
+thetas: [-1.2622748798141752, -0.5465650681468227, 1.2166356798787024, -1.135290707247824,
+  -0.34258904568889514, -0.15006484096169007, 0.008650039679698367]
+mse: null
+f1_score: 0.5700000000000001
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 2]
+thetas: [-1.2532597201072107, -0.757869574712963, 1.1542030915825217, -1.086493778613055,
+  -0.20519617236342907, -0.1496515927829548, -0.03255405379911983]
+mse: null
+f1_score: 0.7356132756132756
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 3]
+thetas: [-1.1733630356271283, -0.7480979735001874, 1.213324121166155, -0.6596006763756123,
+  -0.2432991396302474, -0.10260729279247437, -0.45379977688617057, -0.405820073891804]
+mse: null
+f1_score: 0.6050793650793651
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 3]
+thetas: [-1.164269710472291, -0.7211363528288867, 1.27472743869398, -0.6205468690674962,
+  -0.2707815386513982, -0.11634875142010118, -0.40372363269112094, -0.2782524600024232]
+mse: null
+f1_score: 0.6141558441558441
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 3]
+thetas: [-1.323478831804483, -0.7266712372765292, 1.2022321493365367, -0.6731452792063879,
+  -0.20994237494544626, -0.09865872245152853, -0.367219190351293, -0.31383979006963586]
+mse: null
+f1_score: 0.7270923520923521
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 3]
+thetas: [-1.1457974502289918, -0.6845805825085107, 1.1468797750411686, -0.6251280735071996,
+  -0.22980565350756918, -0.11791612769930815, -0.35505987106048503, -0.3525557406364433]
+mse: null
+f1_score: 0.7571428571428571
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 3]
+thetas: [-1.1360792656909202, -0.6734865142267714, 1.1520868521624128, -0.5600060720317922,
+  -0.2568840038765262, -0.1033396258564748, -0.35694072122853165, -0.3719910334100371]
+mse: null
+f1_score: 0.6643506493506494
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w2d2t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 2, 3]
+thetas: [-1.0570520211085268, -0.5787122432762848, 1.1875182018846788, -0.6952420795656025,
+  -0.2727510989670983, -0.12981718081252064, -0.30264657600239686, -0.3189428765672668]
+mse: null
+f1_score: 0.7112698412698413
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 1]
+thetas: [-1.195132750021388, -0.7192401424859333, 0.6950320682281175, -1.292122904017238,
+  -0.1744091043878474, -0.6823279353269284, 0.376584733062938]
+mse: null
+f1_score: 0.6523809523809524
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 1]
+thetas: [-1.083733710160578, -0.7363109388834744, 0.6812418320731206, -1.2184520266928718,
+  -0.20509952016665253, -0.662578501406583, 0.3368708479659224]
+mse: null
+f1_score: 0.6826984126984128
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 1]
+thetas: [-1.1619572117198822, -0.6793373120800115, 0.5228645755423645, -1.1560437173995806,
+  -0.2208520708653385, -0.5742417311600212, 0.7146620520256171]
+mse: null
+f1_score: 0.7696686646686646
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 1]
+thetas: [-1.1714273221077245, -0.76459953193875, 0.7027477972802958, -1.136778263226184,
+  -0.24716244756222533, -0.5014685373329908, 0.330265294485012]
+mse: null
+f1_score: 0.600952380952381
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 1]
+thetas: [-1.1622332230973635, -0.6049852402384633, 0.7128925907609904, -1.1092001319672429,
+  -0.2698042719350266, -0.47823780044169845, 0.30541414848633736]
+mse: null
+f1_score: 0.7521717171717173
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t1
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 1]
+thetas: [-1.1453338932694541, -0.6208141306749693, 0.6239299108319017, -1.1414390854355654,
+  -0.24608577337758816, -0.4642655482610287, 0.31905529847607866]
+mse: null
+f1_score: 0.6761904761904761
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 2]
+thetas: [-1.078731526750267, -0.684814734737234, 0.6980816518684401, -1.1783526202810004,
+  -0.2233992627010587, -0.6727431389293902, 0.39667996981548803, -0.03284679116764242]
+mse: null
+f1_score: 0.7066161616161617
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 2]
+thetas: [-1.0831456019395076, -0.6473426443791609, 0.6383670749040345, -1.1338130438225158,
+  -0.18644993500859375, -0.6425688532563151, 0.3574897979288799, -0.06864675791987078]
+mse: null
+f1_score: 0.6938095238095239
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 2]
+thetas: [-1.2060618542222226, -0.581466655482099, 0.6523762004285215, -1.2465812895806314,
+  -0.23986467537717962, -0.6063661318694761, 0.3361909680754953, 0.1113346746987551]
+mse: null
+f1_score: 0.6678571428571429
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 2]
+thetas: [-1.0108516166088781, -0.6296247192076126, 0.722871457727789, -1.053302424455929,
+  -0.30011288034688977, -0.5375190160729584, 0.3374675474044209, -0.015271441156421024]
+mse: null
+f1_score: 0.611031746031746
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 2]
+thetas: [-1.103120827690997, -0.7805180152040616, 0.5901002208754376, -1.2061277754670945,
+  -0.1649727322764635, -0.6214548036156119, 0.3506927630062547, 0.054532010527982865]
+mse: null
+f1_score: 0.7023809523809523
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t2
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 2]
+thetas: [-1.051875548750724, -0.5732376740684342, 0.6577839556264595, -1.1919009332936865,
+  -0.2974996422737966, -0.5484655175610135, 0.3394829408452623, 0.17913680614352057]
+mse: null
+f1_score: 0.6382628482628483
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 3]
+thetas: [-0.948414982072861, -0.513197076182479, 0.5362086667324529, -0.7399302908591935,
+  -0.34100509456312633, -0.5247385357524896, 0.38457275858521683, -0.5492419229168803,
+  -0.5686275951024804]
+mse: null
+f1_score: 0.6895238095238094
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 3]
+thetas: [-1.0986461622943446, -0.6491285695642877, 0.657133939336202, -0.610643783199954,
+  -0.15503320824642822, -0.6040714514183093, 0.4208104107743627, -0.3743670904408303,
+  -0.37406009730357825]
+mse: null
+f1_score: 0.7274603174603174
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 3]
+thetas: [-0.9775038773979015, -0.5902477562499607, 0.7214017866209268, -0.7486613432914467,
+  -0.21449141907258656, -0.5037390150203592, 0.32483225459778453, -0.34955016917891185,
+  -0.2969485455380797]
+mse: null
+f1_score: 0.5616666666666668
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 3]
+thetas: [-1.119979717559684, -0.5830669345544501, 0.567923419183133, -0.6517079494197099,
+  -0.2186843498870928, -0.5279747773325135, 0.6419949462510087, -0.36558277098831,
+  -0.35534215371944927]
+mse: null
+f1_score: 0.7417521367521368
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w2d3t3
+alpha: 0.1
+iter: 200
+polynomes: [2, 3, 3]
+thetas: [-0.9510865355109476, -0.6214693950804775, 0.6850357633925936, -0.622459640647576,
+  -0.2290529392749074, -0.5242281657048253, 0.31256630041403394, -0.33558178128553035,
+  -0.3320846605117102]
+mse: null
+f1_score: 0.6240476190476191
 lambda: 0.8
 total_iter: 0
 evol_mse: []
@@ -937,54 +1285,12 @@ name: w2d3t3
 alpha: 0.1
 iter: 200
 polynomes: [2, 3, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-0.9426662106102371, -0.6401308450040454, 0.6633016811938766, -0.6017282095162636,
+  -0.2453098360797142, -0.5156159706223439, 0.31690978056744323, -0.3612992110967656,
+  -0.3701813776811496]
 mse: null
-f1_score: 0.8124603174603173
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w2d3t3
-alpha: 0.1
-iter: 200
-polynomes: [2, 3, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6433333333333333
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w2d3t3
-alpha: 0.1
-iter: 200
-polynomes: [2, 3, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6433189033189033
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w2d3t3
-alpha: 0.1
-iter: 200
-polynomes: [2, 3, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.7416666666666667
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w2d3t3
-alpha: 0.1
-iter: 200
-polynomes: [2, 3, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6995238095238095
-lambda: 0.8
+f1_score: 0.6687662337662338
+lambda: 1.0
 total_iter: 0
 evol_mse: []
 ---
@@ -992,9 +1298,10 @@ name: w3d1t1
 alpha: 0.1
 iter: 200
 polynomes: [3, 1, 1]
-thetas: [1, 1, 1, 1, 1, 1]
+thetas: [-1.6434309262362838, 0.482628708791417, 1.2764243853489472, -1.1260917060058098,
+  -0.4028977523221729, -0.8204675667754285]
 mse: null
-f1_score: 0.7022510822510822
+f1_score: 0.6965079365079366
 lambda: 0.0
 total_iter: 0
 evol_mse: []
@@ -1003,9 +1310,10 @@ name: w3d1t1
 alpha: 0.1
 iter: 200
 polynomes: [3, 1, 1]
-thetas: [1, 1, 1, 1, 1, 1]
+thetas: [-1.5359496607883942, 0.17959843906909223, 1.144265441259734, -1.2064183601377165,
+  -0.3786250968303154, -0.6153304392190221]
 mse: null
-f1_score: 0.7335897435897436
+f1_score: 0.6735714285714287
 lambda: 0.2
 total_iter: 0
 evol_mse: []
@@ -1014,9 +1322,10 @@ name: w3d1t1
 alpha: 0.1
 iter: 200
 polynomes: [3, 1, 1]
-thetas: [1, 1, 1, 1, 1, 1]
+thetas: [-1.4561308516899567, 0.43865741320500773, 1.2192270097731506, -1.2000542123195654,
+  -0.39863212042369817, -0.7070649116615102]
 mse: null
-f1_score: 0.62
+f1_score: 0.5970923520923521
 lambda: 0.4
 total_iter: 0
 evol_mse: []
@@ -1025,9 +1334,10 @@ name: w3d1t1
 alpha: 0.1
 iter: 200
 polynomes: [3, 1, 1]
-thetas: [1, 1, 1, 1, 1, 1]
+thetas: [-1.4640210816047363, 0.3992211244335863, 1.1820976322679824, -1.1341044302114427,
+  -0.34270073637822546, -0.6772196426712279]
 mse: null
-f1_score: 0.6373809523809524
+f1_score: 0.5806637806637805
 lambda: 0.6000000000000001
 total_iter: 0
 evol_mse: []
@@ -1036,9 +1346,82 @@ name: w3d1t1
 alpha: 0.1
 iter: 200
 polynomes: [3, 1, 1]
-thetas: [1, 1, 1, 1, 1, 1]
+thetas: [-1.4354752021852273, 0.36298758566108286, 1.106392181887908, -1.1693677067624133,
+  -0.30935473623004045, -0.6469110585808888]
 mse: null
-f1_score: 0.6487662337662338
+f1_score: 0.6228571428571428
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w3d1t1
+alpha: 0.1
+iter: 200
+polynomes: [3, 1, 1]
+thetas: [-1.463321885265352, 0.41405266850091726, 1.0402208368477037, -1.2371417572098975,
+  -0.34549762834398867, -0.6504881240227863]
+mse: null
+f1_score: 0.6419047619047619
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w3d1t2
+alpha: 0.1
+iter: 200
+polynomes: [3, 1, 2]
+thetas: [-1.493107515044451, 0.5349487445491224, 1.2370113038925876, -1.2367198186045192,
+  -0.3470226534872575, -0.7236675496083779, -0.08296037430864657]
+mse: null
+f1_score: 0.6772222222222223
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w3d1t2
+alpha: 0.1
+iter: 200
+polynomes: [3, 1, 2]
+thetas: [-1.4348461581331855, 0.2072423731837733, 1.1807374236105985, -1.2143579949313308,
+  -0.3670792737826925, -0.6130271840680876, -0.04235349934598403]
+mse: null
+f1_score: 0.6444444444444445
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w3d1t2
+alpha: 0.1
+iter: 200
+polynomes: [3, 1, 2]
+thetas: [-1.4226392798488061, 0.4208358629619484, 1.1587786100479798, -1.2533272220634022,
+  -0.4939961833196779, -0.7562500507831776, 0.044163253705936614]
+mse: null
+f1_score: 0.6835714285714285
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w3d1t2
+alpha: 0.1
+iter: 200
+polynomes: [3, 1, 2]
+thetas: [-1.407045726836085, 0.4428927002609943, 1.3334223145950035, -1.1349058682499142,
+  -0.28279054584844937, -0.5979397078698874, -0.13635272276426533]
+mse: null
+f1_score: 0.6852380952380952
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w3d1t2
+alpha: 0.1
+iter: 200
+polynomes: [3, 1, 2]
+thetas: [-1.4553608917555099, 0.4421556169557703, 1.153966730873392, -1.1699918238417555,
+  -0.393065421947104, -0.6793218322255321, -0.015032777527563424]
+mse: null
+f1_score: 0.8006709956709956
 lambda: 0.8
 total_iter: 0
 evol_mse: []
@@ -1047,54 +1430,11 @@ name: w3d1t2
 alpha: 0.1
 iter: 200
 polynomes: [3, 1, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.4715203110671515, 0.35621994877247204, 1.257553581787049, -1.1550471468117485,
+  -0.42888189804657484, -0.7048636009584024, -0.052485188241367414]
 mse: null
-f1_score: 0.6937662337662338
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w3d1t2
-alpha: 0.1
-iter: 200
-polynomes: [3, 1, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6356709956709957
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w3d1t2
-alpha: 0.1
-iter: 200
-polynomes: [3, 1, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6061904761904761
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w3d1t2
-alpha: 0.1
-iter: 200
-polynomes: [3, 1, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.733015873015873
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w3d1t2
-alpha: 0.1
-iter: 200
-polynomes: [3, 1, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6166666666666666
-lambda: 0.8
+f1_score: 0.648809523809524
+lambda: 1.0
 total_iter: 0
 evol_mse: []
 ---
@@ -1102,9 +1442,10 @@ name: w3d1t3
 alpha: 0.1
 iter: 200
 polynomes: [3, 1, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.2395338810041199, 0.48914847731565053, 1.2488415268529927, -0.7408550208893232,
+  -0.41300197926899535, -0.7251662631934789, -0.5538606562926556, -0.39629825377760347]
 mse: null
-f1_score: 0.712936507936508
+f1_score: 0.6797907647907648
 lambda: 0.0
 total_iter: 0
 evol_mse: []
@@ -1113,9 +1454,10 @@ name: w3d1t3
 alpha: 0.1
 iter: 200
 polynomes: [3, 1, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.2589215113875887, 0.46182448476793286, 1.2052917013934097, -0.6733207368321634,
+  -0.3816447594402079, -0.7035007834305919, -0.5727198901288024, -0.42145925112957905]
 mse: null
-f1_score: 0.6361327561327561
+f1_score: 0.6010317460317461
 lambda: 0.2
 total_iter: 0
 evol_mse: []
@@ -1124,9 +1466,10 @@ name: w3d1t3
 alpha: 0.1
 iter: 200
 polynomes: [3, 1, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.279470329837324, 0.4301749605203241, 1.247972195622639, -0.6499740743370883,
+  -0.4079591296803888, -0.777027122707253, -0.5021356090930831, -0.341417965373642]
 mse: null
-f1_score: 0.6939177489177489
+f1_score: 0.5735714285714286
 lambda: 0.4
 total_iter: 0
 evol_mse: []
@@ -1135,9 +1478,10 @@ name: w3d1t3
 alpha: 0.1
 iter: 200
 polynomes: [3, 1, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.2138849703037842, 0.43380928270694935, 1.1304531940007723, -0.6451362209319905,
+  -0.4337822166161568, -0.7362214301364433, -0.4683961395377386, -0.44074976877783056]
 mse: null
-f1_score: 0.6238095238095238
+f1_score: 0.688095238095238
 lambda: 0.6000000000000001
 total_iter: 0
 evol_mse: []
@@ -1146,9 +1490,82 @@ name: w3d1t3
 alpha: 0.1
 iter: 200
 polynomes: [3, 1, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.3288646702004485, 0.37435240732505837, 1.212775077556423, -0.714959350449669,
+  -0.37536865773087214, -0.6628350888128421, -0.4440725467840316, -0.3025492023812687]
 mse: null
-f1_score: 0.6575757575757575
+f1_score: 0.6871428571428572
+lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w3d1t3
+alpha: 0.1
+iter: 200
+polynomes: [3, 1, 3]
+thetas: [-1.4333858079986403, 0.39181195569876476, 1.1260373292988222, -0.6722667827808059,
+  -0.4455615192186015, -0.7258814688257088, -0.4259368702200191, -0.34037730817229367]
+mse: null
+f1_score: 0.7398051948051948
+lambda: 1.0
+total_iter: 0
+evol_mse: []
+---
+name: w3d2t1
+alpha: 0.1
+iter: 200
+polynomes: [3, 2, 1]
+thetas: [-1.3803409518391687, 0.53126931794406, 1.2295912830030558, -1.204141183917559,
+  -0.44094666035366803, -0.7468130507416094, -0.17298905221865618]
+mse: null
+f1_score: 0.6615079365079366
+lambda: 0.0
+total_iter: 0
+evol_mse: []
+---
+name: w3d2t1
+alpha: 0.1
+iter: 200
+polynomes: [3, 2, 1]
+thetas: [-1.2850795116948608, 0.1779214721401004, 1.3023818493065829, -1.19019194143648,
+  -0.4988710016756395, -0.6512547317550217, -0.2711529731451302]
+mse: null
+f1_score: 0.6022222222222222
+lambda: 0.2
+total_iter: 0
+evol_mse: []
+---
+name: w3d2t1
+alpha: 0.1
+iter: 200
+polynomes: [3, 2, 1]
+thetas: [-1.4006300334593644, 0.1485305193942298, 1.255456605739253, -1.081532796010229,
+  -0.41779159589939036, -0.6080753015249879, -0.22068271950187432]
+mse: null
+f1_score: 0.5585714285714285
+lambda: 0.4
+total_iter: 0
+evol_mse: []
+---
+name: w3d2t1
+alpha: 0.1
+iter: 200
+polynomes: [3, 2, 1]
+thetas: [-1.3462869121052854, 0.4768020223549234, 1.2558031171822803, -1.118730236822472,
+  -0.38814467560673005, -0.7035696634759857, -0.18684554482564605]
+mse: null
+f1_score: 0.587012987012987
+lambda: 0.6000000000000001
+total_iter: 0
+evol_mse: []
+---
+name: w3d2t1
+alpha: 0.1
+iter: 200
+polynomes: [3, 2, 1]
+thetas: [-1.273247453715037, 0.37514444215604364, 1.2681493878921697, -1.1461723598949227,
+  -0.2897697873612854, -0.6618212475673659, -0.07205254396633898]
+mse: null
+f1_score: 0.714047619047619
 lambda: 0.8
 total_iter: 0
 evol_mse: []
@@ -1157,54 +1574,11 @@ name: w3d2t1
 alpha: 0.1
 iter: 200
 polynomes: [3, 2, 1]
-thetas: [1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.4613183311681337, 0.3886361325021046, 1.1460600769698859, -1.0945452106610862,
+  -0.35766683729861204, -0.6416885959392618, -0.0798975663029862]
 mse: null
-f1_score: 0.6669264069264069
-lambda: 0.0
-total_iter: 0
-evol_mse: []
----
-name: w3d2t1
-alpha: 0.1
-iter: 200
-polynomes: [3, 2, 1]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6445238095238095
-lambda: 0.2
-total_iter: 0
-evol_mse: []
----
-name: w3d2t1
-alpha: 0.1
-iter: 200
-polynomes: [3, 2, 1]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6488888888888888
-lambda: 0.4
-total_iter: 0
-evol_mse: []
----
-name: w3d2t1
-alpha: 0.1
-iter: 200
-polynomes: [3, 2, 1]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.6166666666666667
-lambda: 0.6000000000000001
-total_iter: 0
-evol_mse: []
----
-name: w3d2t1
-alpha: 0.1
-iter: 200
-polynomes: [3, 2, 1]
-thetas: [1, 1, 1, 1, 1, 1, 1]
-mse: null
-f1_score: 0.5630952380952381
-lambda: 0.8
+f1_score: 0.6754545454545454
+lambda: 1.0
 total_iter: 0
 evol_mse: []
 ---
@@ -1212,9 +1586,10 @@ name: w3d2t2
 alpha: 0.1
 iter: 200
 polynomes: [3, 2, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.1924824853366296, 0.5471336529887809, 1.322523787861864, -1.2570004433586655,
+  -0.39791916800227023, -0.7629252874408312, -0.17473239057120615, -0.15508124284740354]
 mse: null
-f1_score: 0.6926984126984127
+f1_score: 0.6298701298701299
 lambda: 0.0
 total_iter: 0
 evol_mse: []
@@ -1223,9 +1598,10 @@ name: w3d2t2
 alpha: 0.1
 iter: 200
 polynomes: [3, 2, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.2712182387618636, 0.4892466295053618, 1.3249592400610806, -1.2912115323866933,
+  -0.3947667711274621, -0.7293898526753211, -0.22789540291952745, -0.10373443249312421]
 mse: null
-f1_score: 0.6595709845709845
+f1_score: 0.5943833943833944
 lambda: 0.2
 total_iter: 0
 evol_mse: []
@@ -1234,9 +1610,10 @@ name: w3d2t2
 alpha: 0.1
 iter: 200
 polynomes: [3, 2, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.4019189118133777, 0.4679087617085709, 1.3081107368836682, -1.2708052603603328,
+  -0.4017630815737394, -0.7351722621092667, -0.15284131383670627, -0.1010253693923709]
 mse: null
-f1_score: 0.671984126984127
+f1_score: 0.6499494949494949
 lambda: 0.4
 total_iter: 0
 evol_mse: []
@@ -1245,9 +1622,10 @@ name: w3d2t2
 alpha: 0.1
 iter: 200
 polynomes: [3, 2, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.2701830359513797, 0.48156942243397116, 1.2218002705286442, -1.2039323452988604,
+  -0.35966272889017037, -0.6538449543805973, -0.0344900618822196, -0.057560298904337816]
 mse: null
-f1_score: 0.7421789321789322
+f1_score: 0.5430952380952381
 lambda: 0.6000000000000001
 total_iter: 0
 evol_mse: []
@@ -1256,10 +1634,23 @@ name: w3d2t2
 alpha: 0.1
 iter: 200
 polynomes: [3, 2, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.3066790408964122, 0.45762662837316337, 1.2592441283227862, -1.3253557705436083,
+  -0.4156512642199651, -0.7217391108592356, -0.1473190187959899, 0.04720085349631571]
 mse: null
-f1_score: 0.6398412698412699
+f1_score: 0.6854329004329004
 lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w3d2t2
+alpha: 0.1
+iter: 200
+polynomes: [3, 2, 2]
+thetas: [-1.3312476720707733, 0.3629105693531121, 1.158541607528827, -1.1605484517919011,
+  -0.2978182114527005, -0.6567240774019376, -0.13733618956731017, -0.09176125744209404]
+mse: null
+f1_score: 0.7323992673992673
+lambda: 1.0
 total_iter: 0
 evol_mse: []
 ---
@@ -1267,9 +1658,11 @@ name: w3d2t3
 alpha: 0.1
 iter: 200
 polynomes: [3, 2, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.1653967529787568, 0.4412826700300095, 1.4095234629118167, -0.712271869929146,
+  -0.5080004436820629, -0.8083345219055301, -0.20882565177683146, -0.5040884939633242,
+  -0.6135393680167974]
 mse: null
-f1_score: 0.7382828282828282
+f1_score: 0.7577777777777778
 lambda: 0.0
 total_iter: 0
 evol_mse: []
@@ -1278,9 +1671,11 @@ name: w3d2t3
 alpha: 0.1
 iter: 200
 polynomes: [3, 2, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.1952973545737715, 0.4297154826788044, 1.298946513110508, -0.7712291736037528,
+  -0.34260012939795687, -0.6701635030501869, -0.22636197751380419, -0.49247464735607915,
+  -0.3702552193986932]
 mse: null
-f1_score: 0.7073809523809524
+f1_score: 0.611111111111111
 lambda: 0.2
 total_iter: 0
 evol_mse: []
@@ -1289,9 +1684,11 @@ name: w3d2t3
 alpha: 0.1
 iter: 200
 polynomes: [3, 2, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.2295841217307464, 0.48903521049133675, 1.3308125388993666, -0.7424876619998165,
+  -0.47802003246927943, -0.7419392567184032, -0.046428652778576704, -0.48347309587564,
+  -0.3883712665024739]
 mse: null
-f1_score: 0.678051948051948
+f1_score: 0.7605050505050505
 lambda: 0.4
 total_iter: 0
 evol_mse: []
@@ -1300,9 +1697,11 @@ name: w3d2t3
 alpha: 0.1
 iter: 200
 polynomes: [3, 2, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.2570215840020698, 0.3424652040070076, 1.2837358443283602, -0.6966645348049937,
+  -0.40396430634506614, -0.7162012402183947, -0.171543680548053, -0.4605882186006163,
+  -0.5964637745062299]
 mse: null
-f1_score: 0.696111111111111
+f1_score: 0.6273809523809524
 lambda: 0.6000000000000001
 total_iter: 0
 evol_mse: []
@@ -1311,10 +1710,25 @@ name: w3d2t3
 alpha: 0.1
 iter: 200
 polynomes: [3, 2, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.205540981358208, 0.4023415782490671, 1.2479268066403442, -0.7355965308260033,
+  -0.4021997168805725, -0.660545308067782, -0.08977773410796709, -0.43296648760820244,
+  -0.30303439111263963]
 mse: null
-f1_score: 0.7962698412698412
+f1_score: 0.6177777777777778
 lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w3d2t3
+alpha: 0.1
+iter: 200
+polynomes: [3, 2, 3]
+thetas: [-1.3163897009469316, 0.39617545300232465, 1.1301369329515962, -0.6773645516388266,
+  -0.3274986232070877, -0.67928140900598, -0.07750930578736029, -0.405881711797224,
+  -0.3628373648342361]
+mse: null
+f1_score: 0.6876190476190477
+lambda: 1.0
 total_iter: 0
 evol_mse: []
 ---
@@ -1322,9 +1736,10 @@ name: w3d3t1
 alpha: 0.1
 iter: 200
 polynomes: [3, 3, 1]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.1554164652525687, 0.4434487035318744, 0.7389735464399769, -1.1834587185790657,
+  -0.47219088089646655, -0.7641724296207525, -0.7012421421246993, 0.4313161048697683]
 mse: null
-f1_score: 0.5916666666666666
+f1_score: 0.6811111111111111
 lambda: 0.0
 total_iter: 0
 evol_mse: []
@@ -1333,9 +1748,10 @@ name: w3d3t1
 alpha: 0.1
 iter: 200
 polynomes: [3, 3, 1]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.1904194005075635, 0.4881329805752017, 0.7937048327382503, -1.2980033013689463,
+  -0.38101250735835673, -0.7371861674387993, -0.6479677691307686, 0.353472242350246]
 mse: null
-f1_score: 0.7060606060606059
+f1_score: 0.6627838827838828
 lambda: 0.2
 total_iter: 0
 evol_mse: []
@@ -1344,9 +1760,10 @@ name: w3d3t1
 alpha: 0.1
 iter: 200
 polynomes: [3, 3, 1]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.1471736610008436, 0.4803713641160197, 0.7448068905390735, -1.2020999847382845,
+  -0.39554061684467234, -0.7120892723397937, -0.6155396915848491, 0.38148539549052995]
 mse: null
-f1_score: 0.5332539682539683
+f1_score: 0.6857359307359308
 lambda: 0.4
 total_iter: 0
 evol_mse: []
@@ -1355,9 +1772,10 @@ name: w3d3t1
 alpha: 0.1
 iter: 200
 polynomes: [3, 3, 1]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.2146618250400176, 0.4633979980909528, 0.7477579276924723, -1.1461910860822333,
+  -0.33969354961564013, -0.6811783243321436, -0.586556079716048, 0.35673283692618507]
 mse: null
-f1_score: 0.6421428571428571
+f1_score: 0.6484415584415585
 lambda: 0.6000000000000001
 total_iter: 0
 evol_mse: []
@@ -1366,10 +1784,23 @@ name: w3d3t1
 alpha: 0.1
 iter: 200
 polynomes: [3, 3, 1]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.1026963968944943, 0.39515014764055717, 0.7068810025906087, -1.2686785438655812,
+  -0.40050069249046577, -0.7039977783394306, -0.5895547552135305, 0.35983268606679]
 mse: null
-f1_score: 0.7355616605616605
+f1_score: 0.5930735930735931
 lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w3d3t1
+alpha: 0.1
+iter: 200
+polynomes: [3, 3, 1]
+thetas: [-1.1415389917007885, 0.43848536821714956, 0.7849279510265936, -1.1306301184554177,
+  -0.3724557193108864, -0.6803099438784438, -0.5245292739449535, 0.32507820172093627]
+mse: null
+f1_score: 0.5676984126984127
+lambda: 1.0
 total_iter: 0
 evol_mse: []
 ---
@@ -1377,9 +1808,11 @@ name: w3d3t2
 alpha: 0.1
 iter: 200
 polynomes: [3, 3, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.13896186943574, 0.4412421370533248, 0.7718962220126772, -1.193909641865694,
+  -0.5572066312755092, -0.8413861480018204, -0.713747808700782, 0.44516632137350487,
+  -0.09430400867329213]
 mse: null
-f1_score: 0.7122510822510822
+f1_score: 0.6838095238095238
 lambda: 0.0
 total_iter: 0
 evol_mse: []
@@ -1388,9 +1821,11 @@ name: w3d3t2
 alpha: 0.1
 iter: 200
 polynomes: [3, 3, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.1501756174262299, 0.5022312752193667, 0.7163295607150537, -1.2499073185946163,
+  -0.38012867511549525, -0.7643269029080754, -0.701763344183708, 0.42852859836109114,
+  -0.039456404512297365]
 mse: null
-f1_score: 0.7138888888888888
+f1_score: 0.6993145743145742
 lambda: 0.2
 total_iter: 0
 evol_mse: []
@@ -1399,9 +1834,11 @@ name: w3d3t2
 alpha: 0.1
 iter: 200
 polynomes: [3, 3, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.1712887229471711, 0.43202478764479046, 0.6800094024315619, -1.1978171410124065,
+  -0.42910426083002473, -0.7086419822336042, -0.6581915528921484, 0.41959055320549826,
+  -0.020239865891683743]
 mse: null
-f1_score: 0.7419191919191919
+f1_score: 0.5751864801864801
 lambda: 0.4
 total_iter: 0
 evol_mse: []
@@ -1410,9 +1847,11 @@ name: w3d3t2
 alpha: 0.1
 iter: 200
 polynomes: [3, 3, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.074586861534795, 0.3865589865989869, 0.7358868343352627, -1.2295624781283736,
+  -0.4105071854532014, -0.687880359755593, -0.6162706777331233, 0.365400048937322,
+  -0.06908056585051658]
 mse: null
-f1_score: 0.6433333333333333
+f1_score: 0.5083333333333333
 lambda: 0.6000000000000001
 total_iter: 0
 evol_mse: []
@@ -1421,10 +1860,25 @@ name: w3d3t2
 alpha: 0.1
 iter: 200
 polynomes: [3, 3, 2]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.2737907789108336, 0.42164572691792873, 0.7298446586049925, -1.2015012784261851,
+  -0.3713415562953488, -0.7490878276753351, -0.5228743766849173, 0.3430339681087935,
+  0.05734279704192452]
 mse: null
-f1_score: 0.6490476190476191
+f1_score: 0.7393939393939394
 lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w3d3t2
+alpha: 0.1
+iter: 200
+polynomes: [3, 3, 2]
+thetas: [-1.180790763090707, 0.39755077881941164, 0.6666326242409947, -1.2186725378155772,
+  -0.3974563103964026, -0.6398771764512161, -0.5119812710468262, 0.3461513266560391,
+  -0.011415916195112237]
+mse: null
+f1_score: 0.6707142857142857
+lambda: 1.0
 total_iter: 0
 evol_mse: []
 ---
@@ -1432,9 +1886,11 @@ name: w3d3t3
 alpha: 0.1
 iter: 200
 polynomes: [3, 3, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-0.9863962907842777, 0.5326180093618395, 0.8243129651608191, -0.7963293896142882,
+  -0.4529287524469873, -0.7751380644724498, -0.6670759501988945, 0.4037216662532167,
+  -0.38795251260179076, -0.30628174338981995]
 mse: null
-f1_score: 0.8353174603174602
+f1_score: 0.7127777777777778
 lambda: 0.0
 total_iter: 0
 evol_mse: []
@@ -1443,9 +1899,11 @@ name: w3d3t3
 alpha: 0.1
 iter: 200
 polynomes: [3, 3, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.036454825468825, 0.4181692336074356, 0.7007184253913871, -0.7219743238755998,
+  -0.4257704316242108, -0.7043221814128295, -0.5723243444707089, 0.380184065545999,
+  -0.4342611899486962, -0.44819909730947793]
 mse: null
-f1_score: 0.7408225108225107
+f1_score: 0.6834920634920636
 lambda: 0.2
 total_iter: 0
 evol_mse: []
@@ -1454,9 +1912,11 @@ name: w3d3t3
 alpha: 0.1
 iter: 200
 polynomes: [3, 3, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.2010958899595578, 0.4115793518395431, 0.7396793484188006, -0.66813198852419,
+  -0.502333594717502, -0.7892002091866557, -0.6190861450021273, 0.42522813422164796,
+  -0.4669850395141231, -0.35435495899544883]
 mse: null
-f1_score: 0.6769047619047617
+f1_score: 0.5771428571428572
 lambda: 0.4
 total_iter: 0
 evol_mse: []
@@ -1465,9 +1925,11 @@ name: w3d3t3
 alpha: 0.1
 iter: 200
 polynomes: [3, 3, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.1485184714511565, 0.29959666694050396, 0.8389022322660553, -0.6276830124661456,
+  -0.4925561070339135, -0.84750765997733, -0.6809620571220981, 0.4026209401321812,
+  -0.33912871503268954, -0.5945292323191878]
 mse: null
-f1_score: 0.7242857142857143
+f1_score: 0.5488095238095239
 lambda: 0.6000000000000001
 total_iter: 0
 evol_mse: []
@@ -1476,9 +1938,24 @@ name: w3d3t3
 alpha: 0.1
 iter: 200
 polynomes: [3, 3, 3]
-thetas: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+thetas: [-1.141271562275025, 0.3412551415101847, 0.7271862839006559, -0.707473191876769,
+  -0.32193464385761156, -0.659198918479013, -0.6413102783048794, 0.40151436964926,
+  -0.46278800393459046, -0.3851221809922514]
 mse: null
-f1_score: 0.5857936507936508
+f1_score: 0.7154822954822955
 lambda: 0.8
+total_iter: 0
+evol_mse: []
+---
+name: w3d3t3
+alpha: 0.1
+iter: 200
+polynomes: [3, 3, 3]
+thetas: [-1.088208547057614, 0.37474023819803826, 0.7709619555291062, -0.7703747758578994,
+  -0.4103452535931641, -0.6827509012305065, -0.49471213028238087, 0.35628684024861595,
+  -0.34408481575589955, -0.32201491690352874]
+mse: null
+f1_score: 0.6722077922077923
+lambda: 1.0
 total_iter: 0
 evol_mse: []
