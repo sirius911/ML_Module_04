@@ -31,7 +31,7 @@ def init_model_yaml(file = 'models.yaml', lambda_range=np.arange(0.0, 1.2, 0.2, 
                 models['iter'] = 200
                 polynome = list([int(po[0]) for po in hypo])
                 models['polynomes'] =polynome
-                models['thetas'] = [1 for _ in range(sum(polynome) + 1)]
+                models['thetas'] = [[1 for _ in range(sum(polynome) + 1)] for i in range(4)]
                 models['mse'] = None
                 models['f1_score'] = None
                 models['lambda'] = float(lambda_)

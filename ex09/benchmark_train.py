@@ -40,7 +40,7 @@ def one_vs_all(k_folds, model):
     x_train, y_train, x_test, y_test = k_folds
     for zipcode in range(4):
         y_train_f = format(y_train, zipcode)
-        theta = np.array(model['thetas']).reshape(-1,1)
+        theta = np.array(model['thetas'][zipcode]).reshape(-1,1)
         alpha = model['alpha']
         max_iter = model['iter']
         lambda_ = model['lambda']
@@ -48,7 +48,7 @@ def one_vs_all(k_folds, model):
         my_lr.fit_(x_train, y_train_f)
         y_hat = my_lr.predict_(x_test)
         result[zipcode] = y_hat.reshape(len(y_hat))
-        model['thetas'] = [float(tta) for tta in my_lr.theta]
+        model['thetas'][zipcode] = [float(tta) for tta in my_lr.theta]
     return f1_score_(y_test, format_all(result))
 
 def train(X, Y, list_model):

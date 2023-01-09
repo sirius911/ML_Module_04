@@ -6,9 +6,23 @@ from tqdm import tqdm
 from utils.ft_yaml import load_model
 from utils.common import colors, loading
 from utils.normalizer import Normalizer
-from utils.utils_ml import add_polynomial_features, cross_validation
+from utils.utils_ml import add_polynomial_features, cross_validation, data_spliter
 from utils.mylogisticregression import MyLogisticRegression as myLR
 from utils.metrics import f1_score_
+from matplotlib import pyplot as plt
+
+def display3D(x, y, pred, title):
+    error = np.mean(y != pred) * 100
+    fig = plt.figure()
+    ax = fig.add_subplot(projection='3d')
+    colors = {0: "b", 1: "r", 2: "g", 3: "cyan"}
+    ax.scatter(x[:, 0], x[:, 1], x[:, 2], c=pd.DataFrame(y, columns=["Origin"])["Origin"].map(colors), label="true value")
+    ax.scatter(x[:, 0], x[:, 1], x[:, 2], marker="x", c=pd.DataFrame(pred, columns=["Origin"])["Origin"].map(colors), label="predicted value")
+    ax.set_xlabel('weight')
+    ax.set_ylabel('height')
+    ax.set_zlabel('bone_density')
+    ax.set_title("{:.2f}%error - {}".format(error, title))
+    ax.legend()
 
 def format(arr: np.ndarray, label: int):
     """
@@ -47,33 +61,65 @@ def one_vs_all(k_folds, model, lambda_):
         my_lr.fit_(x_train, y_train_f)
         y_hat = my_lr.predict_(x_test)
         result[zipcode] = y_hat.reshape(len(y_hat))
-        model['thetas'] = [float(tta) for tta in my_lr.theta]
+        model['thetas'][zipcode] = [float(tta) for tta in my_lr.theta]
     return f1_score_(y_test, format_all(result))
 
 def train_with_diff_lambda(X, Y, model):
-    
+    lambda_tab = []
+    f1_tab = []
     X_poly = add_polynomial_features(X, model['polynomes'])
-    best_lambda = 0
-    best_f1 = 0
+    print(f" training {colors.yellow}{model['name']}{colors.reset}:")
     for lambda_ in np.arange(0.0, 1.2, 0.2):
-        f1_score = 0.0
-        for k_folds in tqdm(cross_validation(X_poly, Y, K=10), leave=False):
-            f1_score += one_vs_all(k_folds, model, lambda_)
-        f1_score /= 10
-        model['f1_score'] = f1_score
-        print(f"with lambda = {lambda_:.1f} F1 score = {f1_score}")
-        if f1_score > best_f1:
-            best_f1 = f1_score
-            best_lambda = lambda_
-    return  best_lambda
+        lambda_ = round(lambda_, 1)
+        k_folds = data_spliter(X_poly, Y, 0.8)
+        f1_score = one_vs_all(k_folds, model, lambda_=lambda_)
+        print(f"\twith  λ = {colors.blue}{lambda_:.1f}{colors.reset} f1 score = {colors.green}{f1_score}{colors.reset}")
+        lambda_tab.append(lambda_)
+        f1_tab.append(f1_score)
+    return  lambda_tab, f1_tab
 
 def train(X, Y, model):
     X_poly = add_polynomial_features(X, model['polynomes'])
-    f1_score = 0.0
-    for k_folds in tqdm(cross_validation(X_poly, Y, K=10), leave=False):
-        f1_score += one_vs_all(k_folds, model, lambda_ = model['lambda'])
-    f1_score /= 10
+    k_folds = data_spliter(X_poly, Y, 0.8)
+    f1_score = one_vs_all(k_folds, model, lambda_ = model['lambda'])
     model['f1_score'] = f1_score
+
+def show_model(X, Y, model):
+    """ show a model with a range of lambda"""
+    lambda_t, f1_t = train_with_diff_lambda(X, Y, model)
+    x = np.arange(len(lambda_t))
+    width = 0.35
+    fig, ax = plt.subplots()
+    rects1 = ax.bar(x - width/2, f1_t, width)
+    ax.set_ylabel('F1 Scores')
+    ax.set_xlabel('λ')
+    ax.set_xticks(x, lambda_t)
+    ax.bar_label(rects1, padding=3)
+    fig.tight_layout()
+    plt.title(f"Model : {model['name']}")
+    # find best lambda
+    best_f1 = 0
+    best_lambda = model['lambda']
+    for l,f in zip(lambda_t, f1_t):
+        if f > best_f1:
+            best_f1 = f
+            best_lambda = l
+    model['lambda'] = best_lambda
+
+def display(model, X, Y):
+    max_iter = model['iter']
+    alpha = model['alpha']
+    lamda_ = model['lambda']
+    X_poly = add_polynomial_features(X, model['polynomes'])
+    pred = pd.DataFrame()
+    for zipcode in range(4):
+        theta = np.array(model['thetas'][zipcode]).reshape(-1, 1)
+        my_lr = myLR(theta=theta, alpha=alpha, max_iter=max_iter, lambda_=lamda_)
+        y_hat = my_lr.predict_(X_poly)
+        pred[zipcode] = y_hat.reshape(len(y_hat))
+    pred = format_all(pred)
+    display3D(X, Y, pred, f"Model {model['name']} λ = {model['lambda']:.1f}")
+        
 
 def main():
     # Importation of the dataset
@@ -112,9 +158,10 @@ def main():
     print(colors.green, "ok", colors.reset)
 
     print("******** TRAINING ********")
-    print(f"Training best model : {colors.green}{best_model['name']}{colors.reset} lambda = {best_model['lambda']:.1f} f1 = {best_model['f1_score']}")
-    train(X, Y, best_model)
-    print("*************")    
+    show_model(X, Y, best_model)
+    print(f"predict data with model : {colors.green}{best_model['name']}{colors.reset} λ = {best_model['lambda']:.1f} f1_score = {best_model['f1_score']}")
+    display(best_model, X, Y)
+    plt.show()
 
 if __name__ == "__main__":
     print("Solar system census starting ...")
