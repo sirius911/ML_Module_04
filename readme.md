@@ -81,3 +81,6 @@ Comme le score F1 est une moyenne de *Precision* et *Recall*, cela signifie que 
 - Un modèle obtiendra un score F1 élevé si *Precision* et *Recall* sont tous deux élevés.
 - Un modèle obtiendra un score F1 faible si *Precision* et *Recall* sont tous deux faibles.
 - Un modèle obtiendra un score F1 moyen si l'un des critères *Precision* et *Recall* est faible et l'autre élevé.
+
+[lien](https://kobia.fr/classification-metrics-f1-score/)
+[neurones](https://towardsdatascience.com/math-neural-network-from-scratch-in-python-d6da9f29ce65)
